@@ -4,10 +4,41 @@
 <meta charset="UTF-8">
 <script src="https://unpkg.com/html5-qrcode"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<audio id="beep" src="https://www.soundjay.com/buttons/sounds/beep-07.mp3"></audio>
 <title>Check Product</title>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
+#reader {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px dashed #22c55e;
+  position: relative;
+}
+
+#reader::after {
+  content: "Arahkan kamera ke QR Code";
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(0,0,0,0.4);
+  padding: 4px;
+}
+.days-bar-fill {
+  transition: width 0.6s ease, background 0.3s;
+}
+.fade-in {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
@@ -453,6 +484,7 @@
 
     <label>PRODUCT NAME</label>
     <div class="field-display" id="disp-name">—</div>
+    <div id="status-badge" style="margin-top:-10px;margin-bottom:16px;"></div>
 
     <label>STORAGE HANDLING</label>
     <div class="field-display" id="disp-storage">—</div>
@@ -557,6 +589,9 @@ function scanProduct() {
     document.getElementById('not-found').innerText = 'Produk tidak ditemukan';
     document.getElementById('not-found').style.display = 'block';
     document.getElementById('product-section').style.display = 'none';
+    document.getElementById('ed-input').focus();
+    document.getElementById('beep').play();
+    document.getElementById('product-section').classList.add('fade-in');
     return;
   }
 
@@ -582,6 +617,15 @@ function checkExpiry() {
   const resultSection = document.getElementById('result-section');
   const daysBar = document.getElementById('days-bar');
   const saveBtn = document.getElementById('save-btn');
+  const badge = document.getElementById('status-badge');
+
+if (statusLabel === 'EXPIRED') {
+  badge.innerHTML = '<span class="badge" style="background:#fee2e2;color:#b91c1c;">EXPIRED</span>';
+} else if (statusLabel === 'NEAR EXPIRED') {
+  badge.innerHTML = '<span class="badge" style="background:#ffedd5;color:#c2410c;">NEAR EXPIRED</span>';
+} else {
+  badge.innerHTML = '<span class="badge badge-fresh">OK</span>';
+}
 
   if (!edVal) {
     resultSection.innerHTML = '';
@@ -764,6 +808,9 @@ function startScanner() {
     console.error(err);
   });
 }
+<div style="font-size:11px;color:var(--muted)">
+  ED: ${formatDate(h.ed)} • ${h.diffDays} hari
+</div>
 </script>
 </body>
 </html>
