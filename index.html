@@ -607,12 +607,13 @@ function checkExpiry() {
   let dotColor = '';
 
   if (diffDays < 0) {
+    // Already expired
     const expiredDays = Math.abs(diffDays);
     alertHTML = `<div class="alert-box alert-expired">
       <div class="alert-icon">🚫</div>
       <div>
         <div class="alert-title">PRODUK SUDAH EXPIRED!</div>
-        <div class="alert-msg">Produk ini sudah kadaluarsa ${expiredDays} hari yang lalu.</div>
+        <div class="alert-msg">Produk ini sudah kadaluarsa ${expiredDays} hari yang lalu. Segera lakukan bad stock dan jangan di-order.</div>
       </div>
     </div>`;
     barColor = '#ef4444';
@@ -624,6 +625,7 @@ function checkExpiry() {
       <div class="alert-icon">🚫</div>
       <div>
         <div class="alert-title">EXPIRED HARI INI!</div>
+        <div class="alert-msg">Produk ini expired hari ini. Segera bad stock dan jangan di-order.</div>
       </div>
     </div>`;
     barColor = '#ef4444';
@@ -631,23 +633,25 @@ function checkExpiry() {
     statusLabel = 'EXPIRED';
     dotColor = '#ef4444';
   } else if (diffDays <= msltc) {
+    // Critical: days remaining <= MSLTC
     alertHTML = `<div class="alert-box alert-critical">
       <div class="alert-icon">⏳</div>
       <div>
-        <div class="alert-title">NEAR EXPIRED</div>
-        <div class="alert-msg">Sisa ${diffDays} hari</div>
+        <div class="alert-title">⚠️ PRODUK MENDEKATI KADALUARSA!</div>
+        <div class="alert-msg">Produk mendekati kadaluarsa, sisa <strong>${diffDays} hari lagi</strong> sebelum Expired. Tolong segera di bad stock sebelum ke order.</div>
       </div>
     </div>`;
     barColor = '#f97316';
-    barPct = 50;
+    barPct = msltc > 0 ? Math.round((diffDays / msltc) * 100) : 50;
     statusLabel = 'NEAR EXPIRED';
     dotColor = '#f97316';
   } else {
+    // OK
     alertHTML = `<div class="alert-box alert-ok">
       <div class="alert-icon">✅</div>
       <div>
-        <div class="alert-title">OK</div>
-        <div class="alert-msg">Sisa ${diffDays} hari</div>
+        <div class="alert-title">PRODUK MASIH BAIK</div>
+        <div class="alert-msg">Sisa <strong>${diffDays} hari</strong> sebelum expired. Produk layak untuk diorder.</div>
       </div>
     </div>`;
     barColor = '#22c55e';
