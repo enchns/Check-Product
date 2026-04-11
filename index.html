@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <script src="https://unpkg.com/html5-qrcode"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<audio id="beep" src="https://www.soundjay.com/buttons/sounds/beep-07.mp3"></audio>
 <title>Check Product</title>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
@@ -439,7 +438,7 @@
 </style>
 </head>
 <body>
-
+<audio id="beep" src="https://www.soundjay.com/buttons/sounds/beep-07.mp3"></audio>
 <div class="header">
   <div class="header-icon">🔍</div>
   <div>
@@ -590,7 +589,6 @@ function scanProduct() {
     document.getElementById('not-found').style.display = 'block';
     document.getElementById('product-section').style.display = 'none';
     document.getElementById('ed-input').focus();
-    document.getElementById('beep').play();
     document.getElementById('product-section').classList.add('fade-in');
     return;
   }
@@ -617,7 +615,6 @@ function checkExpiry() {
   const resultSection = document.getElementById('result-section');
   const daysBar = document.getElementById('days-bar');
   const saveBtn = document.getElementById('save-btn');
-  const badge = document.getElementById('status-badge');
 
 if (statusLabel === 'EXPIRED') {
   badge.innerHTML = '<span class="badge" style="background:#fee2e2;color:#b91c1c;">EXPIRED</span>';
@@ -648,6 +645,7 @@ if (statusLabel === 'EXPIRED') {
   let barColor = '';
   let barPct = 0;
   let statusLabel = '';
+  const badge = document.getElementById('status-badge');
   let dotColor = '';
 
   if (diffDays < 0) {
@@ -752,6 +750,9 @@ function renderHistory() {
       <div>${h.time}</div>
     </div>
   `).join('');
+  <div style="font-size:11px;color:var(--muted)">
+  ED: ${formatDate(h.ed)} • ${h.diffDays} hari
+</div>
 }
 
 function resetForm() {
@@ -790,6 +791,7 @@ function startScanner() {
         (decodedText) => {
           let cleaned = decodedText.includes(";") ? decodedText.split(";")[0] : decodedText;
           cleaned = cleaned.trim().replace(/[^0-9]/g, "");
+          document.getElementById('beep').play();
 
           document.getElementById("qr-input").value = cleaned;
 
@@ -808,9 +810,7 @@ function startScanner() {
     console.error(err);
   });
 }
-<div style="font-size:11px;color:var(--muted)">
-  ED: ${formatDate(h.ed)} • ${h.diffDays} hari
-</div>
 </script>
+</div>
 </body>
 </html>
