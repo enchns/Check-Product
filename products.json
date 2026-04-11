@@ -1,0 +1,4754 @@
+{
+  "177422": {
+    "null": 761,
+    "product_name": "Blewah Astro Farm",
+    "mslor": 6,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 14,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "297148": {
+    "null": 842,
+    "product_name": "Pakcoy Hydroponic Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999999035631": {
+    "null": 841,
+    "product_name": "Walls Magnum Mini Almond",
+    "mslor": 342,
+    "mslod": 55,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999999294021": {
+    "null": 840,
+    "product_name": "Walls Feast Vanilla",
+    "mslor": 360,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "2579610080002": {
+    "null": 5,
+    "product_name": "Brownie Bar BakedIDFood",
+    "mslor": 20,
+    "mslod": 15,
+    "msltc": 10,
+    "product_age": 30,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "8994046010029": {
+    "null": 542,
+    "product_name": "My Roti Tawar Kupas",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 5,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "678162": {
+    "null": 612,
+    "product_name": "Farmer's Low Cholesterol Egg Astro Farm",
+    "mslor": 21,
+    "mslod": 19,
+    "msltc": 12,
+    "product_age": 28,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992907952631": {
+    "null": 679,
+    "product_name": "Sari Roti Tawar Double Soft",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "844656": {
+    "null": 595,
+    "product_name": "Caisim Hydroponic Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "457082": {
+    "null": 781,
+    "product_name": "Lengkuas Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "474278": {
+    "null": 794,
+    "product_name": "Wortel Berastagi Astro Farm",
+    "mslor": 12,
+    "mslod": 8,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "10138021": {
+    "null": 815,
+    "product_name": "Kin Raw Dog Food Chicken Pumpkin & Greens Makanan Anjing",
+    "mslor": 115,
+    "mslod": 60,
+    "msltc": 30,
+    "product_age": 150,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "939733": {
+    "null": 763,
+    "product_name": "Bengkuang Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "959189": {
+    "null": 662,
+    "product_name": "GQE Telur Asin Matang",
+    "mslor": 19,
+    "mslod": 11,
+    "msltc": 5,
+    "product_age": 23,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "579306": {
+    "null": 17,
+    "product_name": "GQE Telur Puyuh/Egg/Telor",
+    "mslor": 19,
+    "mslod": 12,
+    "msltc": 5,
+    "product_age": 24,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "431314": {
+    "null": 836,
+    "product_name": "Bayam Hijau Hydroponic Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997228861556": {
+    "null": 680,
+    "product_name": "Amazing Farm Sweet Baby Mix Salad To Go",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8886467100017": {
+    "null": 22,
+    "product_name": "Pringles Original",
+    "mslor": 90,
+    "mslod": 45,
+    "msltc": 20,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8886467100062": {
+    "null": 23,
+    "product_name": "Pringles Potato Chips Salt & Seaweed",
+    "mslor": 90,
+    "mslod": 45,
+    "msltc": 20,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "286534": {
+    "null": 562,
+    "product_name": "Kangkung Konvensional Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "7614500010617": {
+    "null": 30,
+    "product_name": "Toblerone Dark Chocolate 100gram 100gram/Coklat/Cokelat",
+    "mslor": 85,
+    "mslod": 70,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992775204009": {
+    "null": 125,
+    "product_name": "Garuda Kacang Atom",
+    "mslor": 180,
+    "mslod": 78,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "982059": {
+    "null": 33,
+    "product_name": "Cumi Cabe Hijau Kafe Betawi x Astro 200gram",
+    "mslor": 90,
+    "mslod": 72,
+    "msltc": 30,
+    "product_age": 120,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993200664337": {
+    "null": 845,
+    "product_name": "Kanzler Frankfurter Cocktail Sausages",
+    "mslor": 180,
+    "mslod": 59,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "863386": {
+    "null": 40,
+    "product_name": "Daging Shortplate Slice US Astro Farm",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "162785": {
+    "null": 576,
+    "product_name": "Sawi Putih Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 3,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "822207": {
+    "null": 240,
+    "product_name": "Timun Acar Astro Farm ",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 2,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "665453": {
+    "null": 872,
+    "product_name": "Bawang Putih Kating Astro Farm",
+    "mslor": 10,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "673517": {
+    "null": 863,
+    "product_name": "Salak Pondoh Astro Farm 10-14 pcs",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 12,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "742843": {
+    "null": 858,
+    "product_name": "Ubi Ungu - Astro Farm",
+    "mslor": 12,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "195444": {
+    "null": 839,
+    "product_name": "Selada Romaine Konvensional Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8998866203104": {
+    "null": 50,
+    "product_name": "Mie Sedaap Selection Singapore Spicy Laksa Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866201346": {
+    "null": 291,
+    "product_name": "Mie Sedaap Kuah White Curry Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "18992752000157": {
+    "null": 890,
+    "product_name": "AQUA Air Mineral Cup Dus 200ml",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8991999110615": {
+    "null": 53,
+    "product_name": "Milk Life Fresh Milk Lactose Free Original",
+    "mslor": 21,
+    "mslod": 12,
+    "msltc": 7,
+    "product_age": 40,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866200813": {
+    "null": 164,
+    "product_name": "Mie Sedaap Goreng Mie Instan Cup",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866202404": {
+    "null": 55,
+    "product_name": "Mie Sedaap Selection Korean Spicy Chicken Mie Instan Cup",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "528720": {
+    "null": 867,
+    "product_name": "Pete Kupas Fresh Astro Farm",
+    "mslor": 8,
+    "mslod": 7,
+    "msltc": 1,
+    "product_age": 11,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "641897": {
+    "null": 58,
+    "product_name": "Daging Sapi Rendang Import Astro Farm",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 360,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993110040726": {
+    "null": 61,
+    "product_name": "So Good Chicken Nugget Original",
+    "mslor": 180,
+    "mslod": 59,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8997032630065": {
+    "null": 62,
+    "product_name": "Ansell Brown Sugar Bubuk",
+    "mslor": 315,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997019431227": {
+    "null": 63,
+    "product_name": "Bionic Farm Sweetatoes Keripik Ubi Ungu Gluten Free",
+    "mslor": 180,
+    "mslod": 94,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999178650235": {
+    "null": 64,
+    "product_name": "Mr Hottest Maitos Rasa Sambal Balado Tortilla Chips",
+    "mslor": 180,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8995108500038": {
+    "null": 65,
+    "product_name": "Rebo Kuaci Original Flavor",
+    "mslor": 210,
+    "mslod": 75,
+    "msltc": 50,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8995108500052": {
+    "null": 66,
+    "product_name": "Rebo Kuaci Milk",
+    "mslor": 210,
+    "mslod": 75,
+    "msltc": 50,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "9556023774516": {
+    "null": 67,
+    "product_name": "Oriental Cheese Balls",
+    "mslor": 180,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866671736": {
+    "null": 197,
+    "product_name": "Ekonomi Fresh Citrus Sabun Colek Krim",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866607315": {
+    "null": 165,
+    "product_name": "SoKlin Softergent Peony & Rose Deterjen Bubuk",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "6920238090618": {
+    "null": 539,
+    "product_name": "Nongshim Shin Ramyun Spicy Mushroom Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866609180": {
+    "null": 71,
+    "product_name": "SoKlin Liquid Biomatic + Softener Pink Deterjen Cair",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866107273": {
+    "null": 72,
+    "product_name": "Poise Luminous White Whitening Facial Foam",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866107280": {
+    "null": 73,
+    "product_name": "Poise Clearshine Oil Control Facial Foam",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866605250": {
+    "null": 74,
+    "product_name": "Nuvo Hand Sanitizer Merah Botol",
+    "mslor": 360,
+    "mslod": 180,
+    "msltc": 165,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866607872": {
+    "null": 75,
+    "product_name": "Ekonomi Putih Sabun Colek Krim",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8888166603462": {
+    "null": 76,
+    "product_name": "Serena Togo Chocolate Biscuits",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992982226009": {
+    "null": 77,
+    "product_name": "Nestle Pure Life Air Mineral Multipack 600ml",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999578527": {
+    "null": 78,
+    "product_name": "Lux Botanicals Bright Bluebell Brightening Body Wash Pouch",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4002309037219": {
+    "null": 79,
+    "product_name": "Ceres Choco Hazelnut Spread",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8852756303117": {
+    "null": 80,
+    "product_name": "Kellogg's Honey Crunch Cornflakes Cereal",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866200325": {
+    "null": 81,
+    "product_name": "Mie Sedaap Kuah Soto Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993190912401": {
+    "null": 271,
+    "product_name": "Amidis Distilled Air Mineral Botol",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992982221509": {
+    "null": 745,
+    "product_name": "Nestle Pure Life Air Mineral Multipack 1500ml",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "149794": {
+    "null": 735,
+    "product_name": "Bayam Hijau Konvensional Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "786797": {
+    "null": 659,
+    "product_name": "Baby Kailan Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "263697": {
+    "null": 877,
+    "product_name": "Daging Babi Kapsim Kembang/Pork Shoulder/Lengan Babi",
+    "mslor": 90,
+    "mslod": 85,
+    "msltc": 70,
+    "product_age": 330,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "089686400021": {
+    "null": 89,
+    "product_name": "Indofood Saus Sambal Pedas Dahsyat",
+    "mslor": 270,
+    "mslod": 116,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997234540162": {
+    "null": 93,
+    "product_name": "Riverland Chicken Karaage",
+    "mslor": 180,
+    "mslod": 59,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "694604": {
+    "null": 886,
+    "product_name": "Semangka Inul Merah Astro Farm 1 pcs",
+    "mslor": 7,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 9,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4987176018083": {
+    "null": 94,
+    "product_name": "Vicks Inhaler Hidung Tersumbat",
+    "mslor": 395,
+    "mslod": 120,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999777010768": {
+    "null": 95,
+    "product_name": "Hansaplast Antiseptik Pembersih Luka Spray",
+    "mslor": 720,
+    "mslod": 276,
+    "msltc": 225,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999777761097": {
+    "null": 96,
+    "product_name": "Hansaplast Kain Elastis Plester Luka",
+    "mslor": 360,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999777016203": {
+    "null": 97,
+    "product_name": "Hansaplast Finger Strips 6s 1pack",
+    "mslor": 360,
+    "mslod": 180,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4005800034473": {
+    "null": 98,
+    "product_name": "Hansaplast Disney Mickey 10 Lembar",
+    "mslor": 360,
+    "mslod": 180,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "449507": {
+    "null": 892,
+    "product_name": "Daun Seledri Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "766035": {
+    "null": 100,
+    "product_name": "Black Salmon Fillet Astro Farm",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 180,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999777004552": {
+    "null": 101,
+    "product_name": "Nivea Men Invisbile Black & White Deodorant Roll On",
+    "mslor": 360,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4005808713257": {
+    "null": 102,
+    "product_name": "Nivea Body Serum Extra White",
+    "mslor": 540,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "204608": {
+    "null": 723,
+    "product_name": "Buah Naga Merah Astro Farm",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993417227813": {
+    "null": 299,
+    "product_name": "Sleek Baby Laundry Deterjen Bayi Pouch",
+    "mslor": 360,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "755543": {
+    "null": 621,
+    "product_name": "Pare Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "3415581533187": {
+    "null": 107,
+    "product_name": "Haagen-Dazs Belgian Ice Cream Chocolate Mini Cup",
+    "mslor": 150,
+    "mslod": 75,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993417815225": {
+    "null": 108,
+    "product_name": "Click Natural Whitening Cavity Protection Blackberry Mint Toothpaste",
+    "mslor": 600,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992753018819": {
+    "null": 109,
+    "product_name": "Frisian Flag Low Fat French Vanila Susu UHT",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997228861518": {
+    "null": 503,
+    "product_name": "Amazing Farm American Mix Salad To Go",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997207631880": {
+    "null": 114,
+    "product_name": "Udang Vanamei Giling Halus Premium Java Sea x Astro Farm",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 360,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8997207639947": {
+    "null": 115,
+    "product_name": "Cumi Ring Beku Java Sea",
+    "mslor": 180,
+    "mslod": 95,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "370654": {
+    "null": 893,
+    "product_name": "Oyong Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "7702018996575": {
+    "null": 117,
+    "product_name": "Gillette March 3 Pisau Cukur",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "798440": {
+    "null": 499,
+    "product_name": "Horenzo Hidroponik Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "463093": {
+    "null": 803,
+    "product_name": "Rosemary Astro Basics",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "944442": {
+    "null": 260,
+    "product_name": "Baby Bayam Hydroponic Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "616338": {
+    "null": 121,
+    "product_name": "Kangkung Hydroponic Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866608732": {
+    "null": 122,
+    "product_name": "Daia Plus Softener Romantic Pink Deterjen Bubuk",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866610247": {
+    "null": 123,
+    "product_name": "Daia Softener Violet Passion Deterjen Bubuk",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993077880809": {
+    "null": 124,
+    "product_name": "Barco Minyak Goreng Kelapa Pouch",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992933443219": {
+    "null": 126,
+    "product_name": "Silky Pudding Chocolate",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "089686386417": {
+    "null": 127,
+    "product_name": "Indofood Bumbu Racik Tempe Goreng",
+    "mslor": 180,
+    "mslod": 117,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "089686385618": {
+    "null": 128,
+    "product_name": "Indofood Bumbu Kentang Goreng Rasa Keju",
+    "mslor": 315,
+    "mslod": 115,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998009040306": {
+    "null": 129,
+    "product_name": "Ultrajaya Teh Kotak Rasa Apel",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998009040290": {
+    "null": 130,
+    "product_name": "Ultrajaya Teh Kotak Rasa Blackcurrant",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998009040283": {
+    "null": 131,
+    "product_name": "Ultrajaya Teh Kotak Jasmine Less Sugar",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998009040139": {
+    "null": 132,
+    "product_name": "Ultrajaya Teh Kotak Jasmine",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8996001354131": {
+    "null": 133,
+    "product_name": "Beng-beng Box 17 pcs",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992775001042": {
+    "null": 134,
+    "product_name": "Garuda Pilus Mi Goreng Kacang",
+    "mslor": 180,
+    "mslod": 78,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "9556174802205": {
+    "null": 135,
+    "product_name": "Quaker Quick Cook Instant Oatmeal",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "368188": {
+    "null": 864,
+    "product_name": "Rock Melon Orange Astro Farm 1 pcs 1.8-2.2 kg",
+    "mslor": 10,
+    "mslod": 7,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "392218": {
+    "null": 512,
+    "product_name": "Jeruk Peras Astro Farm 10-12 pcs",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992752011057": {
+    "null": 139,
+    "product_name": "Vit Air Mineral",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "937709": {
+    "null": 772,
+    "product_name": "Buah Naga Merah Astro Farm 1 pcs",
+    "mslor": 9,
+    "mslod": 7,
+    "msltc": 1,
+    "product_age": 11,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "199563": {
+    "null": 707,
+    "product_name": "Belimbing Dewi Astro Farm 2-3 pcs",
+    "mslor": 6,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "577486": {
+    "null": 598,
+    "product_name": "Nanas Palembang Astro Farm 1 pcs",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "841730": {
+    "null": 236,
+    "product_name": "Daun Katuk Conventional Astro Goods",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "944529": {
+    "null": 533,
+    "product_name": "Roti Tawar Kupas A Basics",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 7,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "906784": {
+    "null": 147,
+    "product_name": "Kacang Telor Medan",
+    "mslor": 170,
+    "mslod": 105,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "089686611700": {
+    "null": 148,
+    "product_name": "Qtela Balado",
+    "mslor": 180,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "149894": {
+    "null": 525,
+    "product_name": "Bawang Merah Astro Farm",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 13,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "9556001299178": {
+    "null": 152,
+    "product_name": "STARBUCKS Double Shot Mocha/Kopi",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "089686010046": {
+    "null": 153,
+    "product_name": "Indomie Kuah Ayam Spesial Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8888166989566": {
+    "null": 154,
+    "product_name": "Monde Butter Cookies Biskuit Kaleng",
+    "mslor": 180,
+    "mslod": 90,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4902750411517": {
+    "null": 155,
+    "product_name": "UHA Kororo Strawberry Permen Jeli",
+    "mslor": 270,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "089686732047": {
+    "null": 156,
+    "product_name": "Chitato Lite Nori Seaweed",
+    "mslor": 180,
+    "mslod": 75,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "632085": {
+    "null": 873,
+    "product_name": "Kentang Astro Farm",
+    "mslor": 8,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 11,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "754792": {
+    "null": 859,
+    "product_name": "Kentang - Astro Farm",
+    "mslor": 7,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "9310155100434": {
+    "null": 159,
+    "product_name": "San Remo Spaghetti Pasta",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "926371": {
+    "null": 590,
+    "product_name": "Selada Romaine Hydroponic Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "305581": {
+    "null": 786,
+    "product_name": "Paket Masak Sop Kimlo Astro Goods",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999999576967": {
+    "null": 166,
+    "product_name": "Royco Saus Tiram",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999908808905": {
+    "null": 167,
+    "product_name": "Hemaviton Vitamin C 1000 Less Sugar Orange",
+    "mslor": 150,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4902430845199": {
+    "null": 168,
+    "product_name": "Downy Sunrise Fresh Pelembut Pakaian",
+    "mslor": 260,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998288360331": {
+    "null": 169,
+    "product_name": "Wong Coco Sari Kelapa Cubes Cocopandan Nata de Coco",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992775315057": {
+    "null": 170,
+    "product_name": "Gery Saluut Malkist Coklat",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "262560": {
+    "null": 171,
+    "product_name": "Sharp-End Ballpoint / Pulpen 0.5mm Mix1 - Astro Basics",
+    "mslor": 720,
+    "mslod": 151,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "186903": {
+    "null": 172,
+    "product_name": "Sharperner / Rautan 7mm  Blue - Astro Basics",
+    "mslor": 720,
+    "mslod": 123,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999898962588": {
+    "null": 173,
+    "product_name": "Diamond Low Fat High Calcium Susu UHT",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998288850719": {
+    "null": 174,
+    "product_name": "Wong Coco Sari Kelapa Cubes Cocopandan Nata de Coco",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "149585": {
+    "null": 766,
+    "product_name": "Pisang Cavendish Baby Astro Farm 5-6 pcs",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "640715": {
+    "null": 762,
+    "product_name": "Pisang Barangan Astro Farm",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "560374": {
+    "null": 759,
+    "product_name": "Pisang Kepok Kuning - Astro Farm 1.1kg - 1.5kg/sisir",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 5,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8992628510158": {
+    "null": 178,
+    "product_name": "Palmia Serbaguna Margarine",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993417200069": {
+    "null": 179,
+    "product_name": "Ellips Hair Repair Hair Vitamin",
+    "mslor": 360,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "1733268802022": {
+    "null": 181,
+    "product_name": "Vinisi Tuna Untuk Bumbu Nasi Goreng",
+    "mslor": 480,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8850006300039": {
+    "null": 183,
+    "product_name": "Colgate Plax Peppermint Fresh Mouthwash",
+    "mslor": 600,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999898962533": {
+    "null": 184,
+    "product_name": "Diamond Full Cream Susu UHT",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8886008101091": {
+    "null": 185,
+    "product_name": "AQUA Air Mineral Botol",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "230171": {
+    "null": 701,
+    "product_name": "Lemon California Lokal Astro Farm 5-7 pcs",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 9,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "794101": {
+    "null": 702,
+    "product_name": "Jeruk Nipis Astro Farm 5-7 pcs",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "348810": {
+    "null": 744,
+    "product_name": "Nanas Honi Astro Farm 1 pcs",
+    "mslor": 5,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "663224": {
+    "null": 528,
+    "product_name": "Jeruk Limau Astro Farm 9-11 pcs",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4026700407594": {
+    "null": 192,
+    "product_name": "Lem UHU Cair",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866610100": {
+    "null": 194,
+    "product_name": "SoKlin Softergent Velvet Orchid Deterjen Bubuk",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866183215": {
+    "null": 195,
+    "product_name": "Mama Lime Lime + Mineral Salt Cairan Pencuci Piring",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992779258305": {
+    "null": 196,
+    "product_name": "Mr Muscle Pembersih Dapur Serbaguna Orange Pouch",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993988345008": {
+    "null": 198,
+    "product_name": "Joyko Gunting SC-838 16cm",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "269109": {
+    "null": 201,
+    "product_name": "Gel Colour Ballpoint / Pulpen 0.5mm Green - Astro Basics",
+    "mslor": 720,
+    "mslod": 151,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999592448": {
+    "null": 202,
+    "product_name": "Sunlight Extra Lembut Cairan Cuci Piring",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "9554100252889": {
+    "null": 203,
+    "product_name": "Gabag Kantong Asi Smart Asorted",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "6908594419021": {
+    "null": 206,
+    "product_name": "Laurier Super Slimguard Wing 35cm Pembalut Kewanitaan",
+    "mslor": 600,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "80001218": {
+    "null": 207,
+    "product_name": "Loacker Napolitaner Wafer",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8851818537309": {
+    "null": 208,
+    "product_name": "Laurier Super Slimguard Day Wing 25cm Pembalut Kewanitaan",
+    "mslor": 600,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "047400247307": {
+    "null": 209,
+    "product_name": "Gillette Foamy Menthol Krim Alat Cukur",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866804486": {
+    "null": 212,
+    "product_name": "Giv White Body Wash Fresh White Lemon & Jojoba Oil Pouch",
+    "mslor": 240,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "330220": {
+    "null": 871,
+    "product_name": "Jeruk Medan Astro Farm 4-5 pcs",
+    "mslor": 8,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 11,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "955783": {
+    "null": 706,
+    "product_name": "Jamur Champignon",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "731451": {
+    "null": 699,
+    "product_name": "Ubi Merah Astro Farm",
+    "mslor": 12,
+    "mslod": 7,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "523917": {
+    "null": 489,
+    "product_name": "Bawang Putih Astro Farm",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998009040023": {
+    "null": 219,
+    "product_name": "Ultrajaya Teh Kotak Jasmine",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "597936": {
+    "null": 868,
+    "product_name": "Ubi Cilembu Astro Farm",
+    "mslor": 12,
+    "mslod": 7,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993189270741": {
+    "null": 259,
+    "product_name": "Charm Safe Night Gathers 42cm Pembalut Wanita",
+    "mslor": 600,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993189270352": {
+    "null": 223,
+    "product_name": "Charm Body Fit Extra Maxi Wing 23cm Pembalut Kewanitaan",
+    "mslor": 600,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "711844330009": {
+    "null": 420,
+    "product_name": "ABC Sardines dalam Saus Tomat",
+    "mslor": 270,
+    "mslod": 121,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992727001793": {
+    "null": 225,
+    "product_name": "Men's Biore Cool Energy Body Foam Pouch",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992964504057": {
+    "null": 226,
+    "product_name": "Charmi Dental Floss & Pick Pembersih Gigi",
+    "mslor": 600,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "481157": {
+    "null": 891,
+    "product_name": "Daun Ketumbar Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 5,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "141836": {
+    "null": 229,
+    "product_name": "Piring Kertas Pesta Silver A Basics 6inch Isi 20 pcs",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "820451": {
+    "null": 809,
+    "product_name": "Kol Putih Astro Farm",
+    "mslor": 6,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "356862": {
+    "null": 234,
+    "product_name": "Caisim Konvensional Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 5,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "749769": {
+    "null": 515,
+    "product_name": "Daun Kemangi Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 3,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "582061": {
+    "null": 806,
+    "product_name": "Daun Jeruk Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "572248": {
+    "null": 541,
+    "product_name": "Kencur Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "984510": {
+    "null": 243,
+    "product_name": "Pakcoy Konvensional Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "363741": {
+    "null": 742,
+    "product_name": "Labu Butternut Astro Farm",
+    "mslor": 14,
+    "mslod": 9,
+    "msltc": 1,
+    "product_age": 31,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "456541": {
+    "null": 770,
+    "product_name": "Labu Siam Acar Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "101655": {
+    "null": 807,
+    "product_name": "Lettuce Head Astro Farm",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866107914": {
+    "null": 249,
+    "product_name": "Mama Lime Charcoal Cairan Pencuci Piring",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "727474": {
+    "null": 250,
+    "product_name": "Lingkar Organik Maseko Kaldu Ayam Kampung",
+    "mslor": 270,
+    "mslod": 118,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "967046": {
+    "null": 251,
+    "product_name": "Kertas Buffalo Warna-Warni A Basics",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866622936": {
+    "null": 252,
+    "product_name": "So Soft Sakura Blossom Deterjen Cair",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866612210": {
+    "null": 253,
+    "product_name": "SoKlin Liquid Japanese Sakura & Strawberry Deterjen Cair",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992745610854": {
+    "null": 254,
+    "product_name": "Saniter Fresh Clean Antibacterial Handwash Botol",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999526405": {
+    "null": 255,
+    "product_name": "Tresemme Keratin Smooth Keratinbond+ N1 Shampoo",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "021200155772": {
+    "null": 257,
+    "product_name": "3M Post-It Notes Yellow",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8990057981037": {
+    "null": 258,
+    "product_name": "Nutribaby Royal 2 Acti Duobio 6-12 Bulan Susu Formula Bayi",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "770655": {
+    "null": 773,
+    "product_name": "Paket Masak Sayur Sop Astro Goods",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997228861525": {
+    "null": 514,
+    "product_name": "Amazing Farm Class Romaine Salad To Go",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992761136031": {
+    "null": 266,
+    "product_name": "Sprite Botol",
+    "mslor": 135,
+    "mslod": 81,
+    "msltc": 41,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997023572091": {
+    "null": 267,
+    "product_name": "Pureco Lavender Liquid Deterjen Bayi",
+    "mslor": 360,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993417815232": {
+    "null": 268,
+    "product_name": "Click Natural Whitening Sensitive Protection Watermelon Mint Toothpaste",
+    "mslor": 600,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993334233690": {
+    "null": 269,
+    "product_name": "Dailymeal Rice Nasi Jagung",
+    "mslor": 240,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "9556564502159": {
+    "null": 273,
+    "product_name": "Fiesta Ultra Thin Kondom Pria",
+    "mslor": 720,
+    "mslod": 276,
+    "msltc": 225,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8853301550123": {
+    "null": 274,
+    "product_name": "Whiskas Mackerel Junior Makanan Kucing Pouch",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998777142332": {
+    "null": 279,
+    "product_name": "Imboost Original Suplemen Daya Tahan Tubuh",
+    "mslor": 480,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999549701": {
+    "null": 280,
+    "product_name": "Royco Salted Egg 3-4 Porsi",
+    "mslor": 270,
+    "mslod": 78,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8995899110638": {
+    "null": 281,
+    "product_name": "Kobe Tepung Serbaguna Special Rasa Bawang",
+    "mslor": 270,
+    "mslod": 116,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992770034168": {
+    "null": 282,
+    "product_name": "Masako Bumbu Ekstrak Daging Sapi",
+    "mslor": 270,
+    "mslod": 118,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "158387": {
+    "null": 285,
+    "product_name": "Cup Kertas Muffin Medium Bintan Hijau A Basics Isi 20 pcs",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999777017507": {
+    "null": 284,
+    "product_name": "Nivea MicellAir Oli & Acne Care Micellar Water",
+    "mslor": 540,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8888166989887": {
+    "null": 286,
+    "product_name": "Monde Collon Cream Vanilla Biskuit",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998888461322": {
+    "null": 287,
+    "product_name": "Maestro Thousand Island Pouch",
+    "mslor": 270,
+    "mslod": 116,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998777144527": {
+    "null": 288,
+    "product_name": "Imboost Extra Effervescent Vit C & D3 Suplemen Daya Tahan Tubuh",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8994573000807": {
+    "null": 289,
+    "product_name": "Sangobion Kapsul Suplemen Penambah Darah",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999500665": {
+    "null": 290,
+    "product_name": "Rinso Anti Noda + Molto Rose Fresh Deterjen Bubuk",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997240600935": {
+    "null": 292,
+    "product_name": "Oatside Oat Milk Chocomalt Straw",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993175537285": {
+    "null": 293,
+    "product_name": "Nabati Richeese Krim Keju Wafer",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "478233": {
+    "null": 294,
+    "product_name": "Lilin Ulang Tahun Spiral Metalik A Basics Isi 6 pcs",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999908427502": {
+    "null": 295,
+    "product_name": "Buy 1 Get 1 My Baby Antibacterial Extra Thick Wipes Tea Tree Oil",
+    "mslor": 360,
+    "mslod": 144,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866109024": {
+    "null": 296,
+    "product_name": "Kodomo Baby Top to Toe Hair & Body Bath",
+    "mslor": 660,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8998866202954": {
+    "null": 297,
+    "product_name": "Guribee BBQ Balado Potato Chips",
+    "mslor": 180,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8994504102310": {
+    "null": 301,
+    "product_name": "Hello Panda Chocolate Biscuit",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "202190017": {
+    "null": 302,
+    "product_name": "Bawang Merah 250gr (Near Exp. Date)",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 2,
+    "product_age": 10,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "375207473": {
+    "null": 303,
+    "product_name": "Apel Fuji 1kg (Near Exp. Date)",
+    "mslor": 7,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "243122387": {
+    "null": 304,
+    "product_name": "Semangka Merah 1pcs (Near Exp. Date)",
+    "mslor": 7,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "664509332": {
+    "null": 305,
+    "product_name": "Bawang Putih 250gr (Near Exp. Date)",
+    "mslor": 10,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "935462597": {
+    "null": 306,
+    "product_name": "Lemon Import 500gr (Near Exp. Date)",
+    "mslor": 7,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999908526403": {
+    "null": 307,
+    "product_name": "My Baby Hair & Body Wash Fresh & Moist Aloe Vera Avocado Pouch",
+    "mslor": 360,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "280097": {
+    "null": 308,
+    "product_name": "Jamur Enoki",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 31,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "458926160": {
+    "null": 309,
+    "product_name": "Nanas Honi Sunpride 1pcs (Near Exp. Date)",
+    "mslor": 7,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8888021200546": {
+    "null": 310,
+    "product_name": "Energizer Baterai Alkaline Max AAA",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "332687": {
+    "null": 311,
+    "product_name": "Bite The Cookies Choco Chip Mini Cookies",
+    "mslor": 180,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "6942836703226": {
+    "null": 312,
+    "product_name": "Hershey's Kisses Chocolate Milk",
+    "mslor": 280,
+    "mslod": 140,
+    "msltc": 70,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "217524892": {
+    "null": 313,
+    "product_name": "Wortel Berastagi Conventional 1kg (Near Exp. Date)",
+    "mslor": 4,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "628659": {
+    "null": 314,
+    "product_name": "Doctor Broth Chicken Bone Broth Bening",
+    "mslor": 315,
+    "mslod": 117,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "681172": {
+    "null": 315,
+    "product_name": "Doctor Broth Chicken Bone Broth Kental",
+    "mslor": 315,
+    "mslod": 117,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "230979852": {
+    "null": 316,
+    "product_name": "Labu Siam 500gr (Near Exp. Date)",
+    "mslor": 4,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8997221990017": {
+    "null": 317,
+    "product_name": "Uray Madu Murni Alami Botol",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8410179100050": {
+    "null": 318,
+    "product_name": "Borges Extra Virgin Olive Oil",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "96068809": {
+    "null": 319,
+    "product_name": "Fisherman's Friend Blackcurrant Sugar Free",
+    "mslor": 270,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8886022971328": {
+    "null": 320,
+    "product_name": "ABC Baterai Alkaline AA",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "089686010947": {
+    "null": 321,
+    "product_name": "Indomie Goreng Special Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "307908": {
+    "null": 322,
+    "product_name": "Astro X Le Nama japanese chocolate Mix Flavor",
+    "mslor": 180,
+    "mslod": 90,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "798111": {
+    "null": 323,
+    "product_name": "Ny. Lily Sambal Asli Lampung",
+    "mslor": 270,
+    "mslod": 116,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8998866200301": {
+    "null": 324,
+    "product_name": "Mie Sedaap Goreng Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "932360336": {
+    "null": 325,
+    "product_name": "Tomat Cherry 500gr (Near Exp. Date)",
+    "mslor": 4,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8997213710326": {
+    "null": 326,
+    "product_name": "Hometown Fresh Milk",
+    "mslor": 16,
+    "mslod": 8,
+    "msltc": 5,
+    "product_age": 21,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "4560119224811": {
+    "null": 327,
+    "product_name": "Moist Diane Extra Volume & Scalp Shampoo",
+    "mslor": 360,
+    "mslod": 180,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "868536": {
+    "null": 328,
+    "product_name": "Bayam Merah Hydroponic Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "470662": {
+    "null": 329,
+    "product_name": "Astro X Doux Batter Cookies Shot Box of 4 500gr",
+    "mslor": 2,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8992786100239": {
+    "null": 330,
+    "product_name": "Pondan Chiffon Pandan Tepung Premiks",
+    "mslor": 300,
+    "mslod": 150,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992804900827": {
+    "null": 331,
+    "product_name": "Pronas Daging Sapi Luncheon Kaleng",
+    "mslor": 420,
+    "mslod": 121,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999005689": {
+    "null": 332,
+    "product_name": "Walls Magnum Classic Belgian Chocolate",
+    "mslor": 360,
+    "mslod": 105,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999999536527": {
+    "null": 333,
+    "product_name": "Magnum Mini Mix Ice Cream 45ml x 6 pcs",
+    "mslor": 360,
+    "mslod": 109,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "4901790632319": {
+    "null": 334,
+    "product_name": "Shimadaya Sanuki Udon Taikoban",
+    "mslor": 240,
+    "mslod": 150,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "230653": {
+    "null": 335,
+    "product_name": "Astro X Sweetooth Ice Cream Black Galaxies 240ml",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "130090": {
+    "null": 336,
+    "product_name": "Melts Stick With U Hampers isi 3 item",
+    "mslor": 180,
+    "mslod": 90,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "161842": {
+    "null": 337,
+    "product_name": "Astro X Chocban Crispy Melted Pisang Coklat Keju 700gr",
+    "mslor": 2,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "457479149": {
+    "null": 338,
+    "product_name": "Cabe Hijau Rawit 250gr (Near Exp. Date)",
+    "mslor": 10,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "908264493": {
+    "null": 339,
+    "product_name": "Kol Putih Conventional 1kg (Near Exp. Date)",
+    "mslor": 4,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "843559": {
+    "null": 340,
+    "product_name": "Pakchoy Hidroponik 250gr",
+    "mslor": 5,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "188841": {
+    "null": 341,
+    "product_name": "INVALID - Baby Pakchoy 250gr",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "845779": {
+    "null": 342,
+    "product_name": "Pakchoy Hidroponik",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8998989300261": {
+    "null": 343,
+    "product_name": "Gudang Garam Surya Box Filter Rokok Batang",
+    "mslor": 225,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "673791": {
+    "null": 344,
+    "product_name": "Jambu Biji Merah Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "381102": {
+    "null": 345,
+    "product_name": "Strawberry Lokal Super - Astro Farm",
+    "mslor": 5,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "623149": {
+    "null": 346,
+    "product_name": "Jeruk Java - Astro Farm",
+    "mslor": 4,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 1,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "227082": {
+    "null": 347,
+    "product_name": "Kiwi Ijo Import 3pcs",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "915104": {
+    "null": 348,
+    "product_name": "Daging Sapi Sirloin Steak SPN Premium/Daging Has Dalam",
+    "mslor": 330,
+    "mslod": 300,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "137788": {
+    "null": 349,
+    "product_name": "Gula Aren Asli Tradisional",
+    "mslor": 300,
+    "mslod": 180,
+    "msltc": 150,
+    "product_age": 60,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8995227501015": {
+    "null": 350,
+    "product_name": "Larutan Cap Kaki Tiga Anak Rasa Stroberi Can",
+    "mslor": 150,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997033000638": {
+    "null": 351,
+    "product_name": "YAVA Granola Chocolate Vanila",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "208022": {
+    "null": 352,
+    "product_name": "Mangga Gedong Gincu Astro Farm 4-5 pcs",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "578676": {
+    "null": 353,
+    "product_name": "Paket A: Sweet & Savory",
+    "mslor": 2,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993110000874": {
+    "null": 354,
+    "product_name": "Seafood Lovers Bakso Ikan Premium",
+    "mslor": 180,
+    "mslod": 44,
+    "msltc": 30,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "925515": {
+    "null": 355,
+    "product_name": "Paket C: Sweet Treats",
+    "mslor": 2,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8996001350850": {
+    "null": 356,
+    "product_name": "Roma Superstar Snaps Triple Chocolate",
+    "mslor": 220,
+    "mslod": 200,
+    "msltc": 170,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "802723": {
+    "null": 357,
+    "product_name": "Caisim - Astro Farm",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "865748045": {
+    "null": 358,
+    "product_name": "Bawang Putih Kating Pack 250gr (Near Exp. Date)",
+    "mslor": 10,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993492101107": {
+    "null": 359,
+    "product_name": "Golden Farm French Fries Shoestring",
+    "mslor": 225,
+    "mslod": 58,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "045255152203": {
+    "null": 360,
+    "product_name": "Coco Thumb Kelapa Muda Thailand Christmas Edition 1pcs",
+    "mslor": 14,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "471180": {
+    "null": 361,
+    "product_name": "Pork Belly Slice Korean Bbq/Daging Babi",
+    "mslor": 300,
+    "mslod": 180,
+    "msltc": 7,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "325329": {
+    "null": 362,
+    "product_name": "Grumpy Kitchen Truffle Chicken Mushroom (Frozen) 110gr",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8801024190225": {
+    "null": 363,
+    "product_name": "Jongga Mat Kimchi",
+    "mslor": 240,
+    "mslod": 210,
+    "msltc": 90,
+    "product_age": 270,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "7499221204220": {
+    "null": 364,
+    "product_name": "Heavenly Blush Ketan Hitam Greek Nusantara 100gr",
+    "mslor": 150,
+    "mslod": 60,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8801073113343": {
+    "null": 365,
+    "product_name": "Samyang Hot Chicken Ramen Buldak Cheese Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "433240": {
+    "null": 366,
+    "product_name": "Daging Sapi Rendang Semur Empal Soto Sapi Australia",
+    "mslor": 300,
+    "mslod": 180,
+    "msltc": 7,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "624332": {
+    "null": 367,
+    "product_name": "Sayur Asem Ready to Cook",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "133736": {
+    "null": 368,
+    "product_name": "Fudgybro Brownie Double Dark Valrhona 225gr",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "959004": {
+    "null": 369,
+    "product_name": "Grouu Nutrilicious - Nutrient Dense Baby Food",
+    "mslor": 225,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "577721": {
+    "null": 370,
+    "product_name": "Kayu Manis Bubuk Pack",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "380095": {
+    "null": 371,
+    "product_name": "Jon's Applewood Beef Bacon",
+    "mslor": 300,
+    "mslod": 180,
+    "msltc": 7,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "720370": {
+    "null": 372,
+    "product_name": "Milk Lab Lactose Free",
+    "mslor": 150,
+    "mslod": 90,
+    "msltc": 30,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "198950": {
+    "null": 373,
+    "product_name": "Mamamoo Bakehouse Signature Sponge Cake isi 4 (2 Beef Seaweed Floss, 2 Salted Egg)",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "526566": {
+    "null": 374,
+    "product_name": "LaFamilie x Astro Spooky Blackout Brownies 300gr",
+    "mslor": 180,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "249334": {
+    "null": 375,
+    "product_name": "Manteca Truffle & Garlic Butter 250gr",
+    "mslor": 180,
+    "mslod": 60,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "30002432": {
+    "null": 376,
+    "product_name": "Elle Vire Creme Cuisson Cooking Cream 35% Fat",
+    "mslor": 120,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "864629": {
+    "null": 377,
+    "product_name": "Mookie Vegan Mini Brownies Brookie 8gr isi 12pcs",
+    "mslor": 180,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "774014": {
+    "null": 378,
+    "product_name": "Melly'z Farm Salad Roll Caesar",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8991001111647": {
+    "null": 379,
+    "product_name": "Silverqueen Chunky Bar Cashew",
+    "mslor": 180,
+    "mslod": 90,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8998777144060": {
+    "null": 380,
+    "product_name": "Diapet Obat Diare",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "233125": {
+    "null": 381,
+    "product_name": "Manteca x Astro - Basil & Pesto Butter 250gr",
+    "mslor": 180,
+    "mslod": 60,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "955600122234366": {
+    "null": 382,
+    "product_name": "[INVALID] Milo Nuggets 28 gram",
+    "mslor": 270,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "554254": {
+    "null": 383,
+    "product_name": "Momoiro Buttercream & Caramel Sando Biscuit 1 pack",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "287892": {
+    "null": 384,
+    "product_name": "Momoiro Triple Chocolate Sando Biscuit 1 pack",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "484224": {
+    "null": 385,
+    "product_name": "Pie Susu Dhian Bali isi 10pcs",
+    "mslor": 180,
+    "mslod": 78,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "133999": {
+    "null": 386,
+    "product_name": "Roti Eneng Roti Tawar Kentang",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "413654": {
+    "null": 387,
+    "product_name": "Super Furry x Astro - OG (Original Garlic) Bun 1pcs & Original Bolo Bun 1pcs / roti",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8857107232016": {
+    "null": 388,
+    "product_name": "Tao Kae Noi Big Sheet Classic Seaweed 3.2gram",
+    "mslor": 180,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "7499221133162": {
+    "null": 390,
+    "product_name": "Heavenly Blush Yoguruto Peach Yogurt Drink",
+    "mslor": 150,
+    "mslod": 60,
+    "msltc": 45,
+    "product_age": 360,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "7499221155218": {
+    "null": 391,
+    "product_name": "Heavenly Blush Tummy Berries Yogurt Bar",
+    "mslor": 180,
+    "mslod": 90,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "221630": {
+    "null": 392,
+    "product_name": "[Promo] Anchor Whipping Cream 250ml",
+    "mslor": 2,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "571736": {
+    "null": 393,
+    "product_name": "Tuku Tukucur Kopi Susu Tetangga Coffee",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8997220410011": {
+    "null": 394,
+    "product_name": "KIN Original Yogurt Drink",
+    "mslor": 150,
+    "mslod": 60,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8998866202022": {
+    "null": 395,
+    "product_name": "Neo Coffee Tiramisu 3in1 Kopi Bubuk 9 sachets x 20gr",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "936566": {
+    "null": 396,
+    "product_name": "Weirdough x Astro Croissant Cereal Killer 85gr",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8992735210033": {
+    "null": 397,
+    "product_name": "Bamboe Bumbu Opor",
+    "mslor": 315,
+    "mslod": 117,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992727009430": {
+    "null": 398,
+    "product_name": "Biore UV Aqua Rich Watery Essence SPF 50+ PA+++ Sunscreen",
+    "mslor": 540,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8853301200301": {
+    "null": 399,
+    "product_name": "Pedigree Denstatix Medium Snack Anjing",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "521029": {
+    "null": 400,
+    "product_name": "Grumpy Kitchen Salmon Piroshky (Frozen) 150gr",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8998866501033": {
+    "null": 401,
+    "product_name": "Sedaap Minyak Goreng Pouch",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "228224": {
+    "null": 402,
+    "product_name": "Daimaru Lakban Kain Hitam 48mm x 13m",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992112011017": {
+    "null": 403,
+    "product_name": "Enervon-C Strip 4tablet",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8995229800192": {
+    "null": 404,
+    "product_name": "Belfoods Kid's Nugget Ceria",
+    "mslor": 180,
+    "mslod": 90,
+    "msltc": 30,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8995229801809": {
+    "null": 405,
+    "product_name": "Belfoods Ayam Nugget Coin/Naget",
+    "mslor": 180,
+    "mslod": 44,
+    "msltc": 30,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "693509": {
+    "null": 406,
+    "product_name": "Carlino Bakes Frozen Goguma Double Chesee isi 4pcs 500gr",
+    "mslor": 180,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "5410126146943": {
+    "null": 407,
+    "product_name": "Lotus Biscoff Crunchy Spread",
+    "mslor": 140,
+    "mslod": 119,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999999515607": {
+    "null": 408,
+    "product_name": "Lifebuoy Mild Care Anti Bacterial Body Wash Pouch",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993137692335": {
+    "null": 409,
+    "product_name": "Wardah Crystal Secret NMF Amino + AHA PHA Clarifying Foaming Cleanser",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8851111401161": {
+    "null": 410,
+    "product_name": "MamyPoko Royal Soft For Boys Pants Diapers L28",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999909982000": {
+    "null": 411,
+    "product_name": "Sampoerna A Mild Red Box Filter Rokok Batang",
+    "mslor": 225,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992727003537": {
+    "null": 412,
+    "product_name": "Men's Biore Deep Pore Clean Micro Power Scrub Facial Wash",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "309904": {
+    "null": 413,
+    "product_name": "Bayam Hijau konvensional - Astro Farm",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8992933243116": {
+    "null": 414,
+    "product_name": "Nutrijell Jelly Powder Rasa Kelapa Muda",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4710363035996": {
+    "null": 415,
+    "product_name": "Attack Plus Softener Deterjen Cair",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "997826": {
+    "null": 416,
+    "product_name": "Lobak Putih 500gr",
+    "mslor": 4,
+    "mslod": 1,
+    "msltc": 0,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8997014380162": {
+    "null": 417,
+    "product_name": "Jay's Coriander Ground",
+    "mslor": 270,
+    "mslod": 118,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "76239878": {
+    "null": 418,
+    "product_name": "Marlboro Lights Perak Amec Blend Filter Rokok Batang",
+    "mslor": 225,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "357491": {
+    "null": 419,
+    "product_name": "Bruule Cheese Pocket Mama Gigi Chicken 276gr",
+    "mslor": 225,
+    "mslod": 58,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "578644": {
+    "null": 421,
+    "product_name": "Heirloom Brownie Almond Batter Parfait 200gr",
+    "mslor": 21,
+    "mslod": 15,
+    "msltc": 7,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999119951131": {
+    "null": 422,
+    "product_name": "Thin Bites Dark Chocolate Toasted Cashew with Cacao Nibs",
+    "mslor": 150,
+    "mslod": 75,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "737663": {
+    "null": 643,
+    "product_name": "Daun Kucai Astro Goods",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "074570032020": {
+    "null": 424,
+    "product_name": "Haagen-Dazs Coffee Ice Cream Mini Cup ",
+    "mslor": 180,
+    "mslod": 90,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993200667772": {
+    "null": 425,
+    "product_name": "Kanzler Original Cocktail Sausages",
+    "mslor": 180,
+    "mslod": 59,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "939696": {
+    "null": 426,
+    "product_name": "Jamur Enoki",
+    "mslor": 5,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "386489": {
+    "null": 427,
+    "product_name": "Sawi Putih - Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 2,
+    "product_age": 5,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "471497": {
+    "null": 428,
+    "product_name": "Anggur Red Globe Astro Farm 450-500 gram",
+    "mslor": 7,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992854000218": {
+    "null": 429,
+    "product_name": "Sunfresh Premium Apple Juice",
+    "mslor": 45,
+    "mslod": 25,
+    "msltc": 15,
+    "product_age": 45,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "7499221164173": {
+    "null": 432,
+    "product_name": "Heavenly Blush Greek Yogurt Granola",
+    "mslor": 45,
+    "mslod": 18,
+    "msltc": 12,
+    "product_age": 45,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "7499221124146": {
+    "null": 433,
+    "product_name": "Heavenly Blush Greek Yogurt Peach",
+    "mslor": 45,
+    "mslod": 18,
+    "msltc": 12,
+    "product_age": 45,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "7499221124115": {
+    "null": 434,
+    "product_name": "Heavenly Blush Greek Yogurt Strawberry",
+    "mslor": 45,
+    "mslod": 18,
+    "msltc": 12,
+    "product_age": 56,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "7499221194194": {
+    "null": 438,
+    "product_name": "Heavenly Blush Greek Yogurt Lychee",
+    "mslor": 45,
+    "mslod": 18,
+    "msltc": 12,
+    "product_age": 45,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "297334": {
+    "null": 436,
+    "product_name": "Paha Ayam Utuh Astro Farm Regular",
+    "mslor": 225,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 240,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993492102678": {
+    "null": 440,
+    "product_name": "Edo Petite Croissant Cheese Crust",
+    "mslor": 180,
+    "mslod": 64,
+    "msltc": 45,
+    "product_age": 240,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "8993351129006": {
+    "null": 442,
+    "product_name": "Greenfields Fresh Milk Strawberry",
+    "mslor": 21,
+    "mslod": 12,
+    "msltc": 7,
+    "product_age": 33,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993351128603": {
+    "null": 443,
+    "product_name": "Greenfields Fresh Jersey Milk",
+    "mslor": 21,
+    "mslod": 12,
+    "msltc": 7,
+    "product_age": 90,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993883950468": {
+    "null": 444,
+    "product_name": "Alamii Honey Gummy Tropical Rush",
+    "mslor": 270,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992752091417": {
+    "null": 445,
+    "product_name": "AQUA Cube Air Mineral Dus 220ml",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8853301550079": {
+    "null": 446,
+    "product_name": "Whiskas Mackerel & Salmon Adult Makanan Kucing Basah Pouch",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "352730": {
+    "null": 447,
+    "product_name": "Gel Colour Ballpoint / Pulpen 0.5mm Brown - Astro Basics",
+    "mslor": 720,
+    "mslod": 123,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993175539821": {
+    "null": 448,
+    "product_name": "Nabati Richoco White Wafer",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999580742": {
+    "null": 468,
+    "product_name": "Rexona Men Motion Actived Sport Defense Deodorant Roll On",
+    "mslor": 360,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8995184704023": {
+    "null": 477,
+    "product_name": "Topi Koki Setra Ramos Beras Premium",
+    "mslor": 315,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "673529": {
+    "null": 765,
+    "product_name": "Pepaya Hawai Astro Farm 1 pcs",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "685543": {
+    "null": 651,
+    "product_name": "Daun Bawang Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 3,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "800142207103": {
+    "null": 495,
+    "product_name": "Makarizo Hair Energy Hair Repair Mask",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8994046110101": {
+    "null": 502,
+    "product_name": "My Roti Pie Cheese",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8994125000767": {
+    "null": 505,
+    "product_name": "Cat Choize Plus Tuna & Salmon Adult Makanan Kucing",
+    "mslor": 360,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993351120768": {
+    "null": 876,
+    "product_name": "Greenfields Yogurt Pouch Mango Peach/Yoghurt",
+    "mslor": 20,
+    "mslod": 15,
+    "msltc": 7,
+    "product_age": 150,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "617574": {
+    "null": 681,
+    "product_name": "Cabe Merah Rawit Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "940683": {
+    "null": 683,
+    "product_name": "Kim's Tahu Non GMO",
+    "mslor": 8,
+    "mslod": 6,
+    "msltc": 2,
+    "product_age": 14,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "219224": {
+    "null": 626,
+    "product_name": "Jagung Manis Kulit Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "933122": {
+    "null": 734,
+    "product_name": "Paket Masak Sayur Asem - Astro Goods",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997238580034": {
+    "null": 519,
+    "product_name": "Deli & Co Japanese Roll Cake Chocolate",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "837618": {
+    "null": 520,
+    "product_name": "Meat Lover's Lasagna Astro Goods x Trattoria La Famiglia",
+    "mslor": 75,
+    "mslod": 25,
+    "msltc": 14,
+    "product_age": 90,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "320012": {
+    "null": 521,
+    "product_name": "Morrocan Mint Straciatella Manatea x Astro Goods/Es Krim",
+    "mslor": 80,
+    "mslod": 45,
+    "msltc": 30,
+    "product_age": 90,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "699540": {
+    "null": 531,
+    "product_name": "Tomat Beef Hydroponic Astro Farm",
+    "mslor": 10,
+    "mslod": 8,
+    "msltc": 1,
+    "product_age": 13,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "363558": {
+    "null": 532,
+    "product_name": "Baby Caisim Hydroponic Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8885013130201": {
+    "null": 540,
+    "product_name": "Aice Vanilla Mochi",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "214222": {
+    "null": 783,
+    "product_name": "Telur Ayam Negeri Astro Farm",
+    "mslor": 21,
+    "mslod": 19,
+    "msltc": 12,
+    "product_age": 25,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997212800295": {
+    "null": 545,
+    "product_name": "Fox's Crystal Clear Berries Permen Kaleng",
+    "mslor": 270,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8850006536339": {
+    "null": 546,
+    "product_name": "Palmolive Aroma Sensations Sensual Body Wash Bottle Pump",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8850006933084": {
+    "null": 547,
+    "product_name": "Palmolive Luminous Oils Shower Gel Invigorating Macadamia Oil with Peony Pouch",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4808888413709": {
+    "null": 548,
+    "product_name": "Palmolive Naturals Intensive Moisture Coco Cream & Milk Protein Shampoo & Conditioner",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992928060186": {
+    "null": 549,
+    "product_name": "Natur Shampoo Aloevera/Sampo",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "800142384521": {
+    "null": 550,
+    "product_name": "Makarizo Hair Energy Fibertherapy Aloe & Melon Conditioning Shampoo",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992907952136": {
+    "null": 563,
+    "product_name": "Sari Roti Tawar Kupas",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "6920238011118": {
+    "null": 566,
+    "product_name": "Nongshim Kimchi Ramyun Mie Instan",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "4902430281331": {
+    "null": 567,
+    "product_name": "Head & Shoulders Menthol Dingin Anti Dandruff Shampoo",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992727003889": {
+    "null": 568,
+    "product_name": "Biore Guard Refresh Lemongrass Antibacterial Body Foam Pouch",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "966088": {
+    "null": 570,
+    "product_name": "Jamur Shimeji Coklat",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 31,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "257371": {
+    "null": 764,
+    "product_name": "Timun Suri Astro Farm 1pcs",
+    "mslor": 6,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997022846223": {
+    "null": 573,
+    "product_name": "JJ Royal Arabica Toraja Coffee Ground Bag",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997022846889": {
+    "null": 574,
+    "product_name": "JJ Royal Arabica Aceh Coffee Ground Bag",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "462660": {
+    "null": 795,
+    "product_name": "Timun Fresh Astro Farm",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8994046010067": {
+    "null": 689,
+    "product_name": "My Roti Tawar Funwari Gandum",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 5,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997017180127": {
+    "null": 581,
+    "product_name": "Yun Yi Tahu Kuning",
+    "mslor": 7,
+    "mslod": 6,
+    "msltc": 2,
+    "product_age": 18,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993560033347": {
+    "null": 583,
+    "product_name": "Vanish Powder Oxi Action Penghilang Noda",
+    "mslor": 480,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "121983": {
+    "null": 584,
+    "product_name": "Reed Diffuser Lilac Bloom 50ml - Astro Goods/Pewangi Ruangan ",
+    "mslor": 730,
+    "mslod": 414,
+    "msltc": 360,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "948374": {
+    "null": 586,
+    "product_name": "Basil Astro Goods",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "403690": {
+    "null": 593,
+    "product_name": "Jamur Shitake",
+    "mslor": 7,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "662460": {
+    "null": 594,
+    "product_name": "Cabe Merah Keriting Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "735621": {
+    "null": 653,
+    "product_name": "Daun Salam",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "708073": {
+    "null": 609,
+    "product_name": "Ikan Selar Astro Farm",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 170,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "277658": {
+    "null": 610,
+    "product_name": "Ayam Utuh Best Chicken",
+    "mslor": 225,
+    "mslod": 77,
+    "msltc": 60,
+    "product_age": 360,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "774191": {
+    "null": 611,
+    "product_name": "Daging Picanha Wagyu Steak MB5 Astro Farm",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 360,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8850477834408": {
+    "null": 614,
+    "product_name": "Smartheart Chicken & Liver Makanan Anjing Kaleng",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997215450251": {
+    "null": 617,
+    "product_name": "CY Matcha Latte With Brown Rice",
+    "mslor": 360,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993351120867": {
+    "null": 874,
+    "product_name": "Greenfields Yogurt Pouch Mixed Berry/Yoghurt",
+    "mslor": 21,
+    "mslod": 10,
+    "msltc": 7,
+    "product_age": 150,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "8801062267712": {
+    "null": 629,
+    "product_name": "Lotte Pepero Almond Biskuit Stik",
+    "mslor": 225,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "597842": {
+    "null": 850,
+    "product_name": "Paru Rebus Slice Import Astro Farm",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "183812": {
+    "null": 642,
+    "product_name": "Kacang Panjang Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "194770": {
+    "null": 713,
+    "product_name": "Jeruk Baby Lokal Astro Farm 3-4 pcs",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "616358": {
+    "null": 714,
+    "product_name": "Labu Siam Astro Farm",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 14,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "442544": {
+    "null": 652,
+    "product_name": "Kentang Rendang Astro Farm",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 13,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "768668": {
+    "null": 658,
+    "product_name": "Jagung Acar Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "942087": {
+    "null": 776,
+    "product_name": "Bebek Bakar Astro Goods x Bebek Goreng Crispy Begok",
+    "mslor": 207,
+    "mslod": 12,
+    "msltc": 2,
+    "product_age": 270,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "207454": {
+    "null": 678,
+    "product_name": "Pisang Ambon Astro Farm 1 Sisir",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993351123110": {
+    "null": 821,
+    "product_name": "Greenfields Mozzarella Cheese",
+    "mslor": 120,
+    "mslod": 46,
+    "msltc": 35,
+    "product_age": 145,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "214220": {
+    "null": 726,
+    "product_name": "Telur Ayam Kampung",
+    "mslor": 21,
+    "mslod": 12,
+    "msltc": 7,
+    "product_age": 30,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992761166243": {
+    "null": 709,
+    "product_name": "Frestea Nusantara Botol/Teh",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993523101120": {
+    "null": 716,
+    "product_name": "King's Fisher Tuna Dalam Larutan Garam",
+    "mslor": 540,
+    "mslod": 150,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "472728": {
+    "null": 775,
+    "product_name": "Paket Masak Sapo Tahu Astro Goods",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "949572": {
+    "null": 720,
+    "product_name": "Matoa Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "564399": {
+    "null": 729,
+    "product_name": "Buncis Super Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8994196101196": {
+    "null": 737,
+    "product_name": "Munik Bumbu Soto Betawi",
+    "mslor": 315,
+    "mslod": 117,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8994075260822": {
+    "null": 743,
+    "product_name": "Momogi Stick Kimchi Box 10 pcs",
+    "mslor": 180,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992982201501": {
+    "null": 754,
+    "product_name": "Nestle Pure Life Air Mineral Botol",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999898962557": {
+    "null": 750,
+    "product_name": "Diamond Chocolate Susu UHT",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997231850011": {
+    "null": 774,
+    "product_name": "Mujigae Kimchi",
+    "mslor": 270,
+    "mslod": 115,
+    "msltc": 90,
+    "product_age": 308,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "477778": {
+    "null": 778,
+    "product_name": "Anggur Autumn Less Seed Premium Astro Farm",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993351120966": {
+    "null": 791,
+    "product_name": "Greenfields Yogurt Pouch Raspberry Lychee/Yoghurt",
+    "mslor": 21,
+    "mslod": 14,
+    "msltc": 3,
+    "product_age": 150,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "532256": {
+    "null": 780,
+    "product_name": "Amazing Farm Kacang Edamame",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997241510028": {
+    "null": 782,
+    "product_name": "Striploin Meltique Ryou Pouch",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "9415262905870": {
+    "null": 785,
+    "product_name": "Anchor Culinary Cooking Cream UHT",
+    "mslor": 100,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997004301665": {
+    "null": 787,
+    "product_name": "Oishi Panchos Rasa Keju Nacho Tortilla Chips",
+    "mslor": 180,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "380562": {
+    "null": 870,
+    "product_name": "Ayam Kampung Organik Probiotik+Jamu Regular 700-800gr LactoFarm",
+    "mslor": 300,
+    "mslod": 137,
+    "msltc": 75,
+    "product_age": 360,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "95500522": {
+    "null": 796,
+    "product_name": "Ayam Brand Mackerel dalam Saus Tomat",
+    "mslor": 420,
+    "mslod": 121,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "487370": {
+    "null": 811,
+    "product_name": "Ikan Asin Peda Merah",
+    "mslor": 120,
+    "mslod": 96,
+    "msltc": 75,
+    "product_age": 170,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "95500515": {
+    "null": 800,
+    "product_name": "Ayam Brand Ikan Sarden Dalam Saus Tomat",
+    "mslor": 420,
+    "mslod": 121,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "551380": {
+    "null": 888,
+    "product_name": "Samcan Daging Babi",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 90,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "496593": {
+    "null": 820,
+    "product_name": "Bakpao Cha Siew Astro Goods x Shun Lee Palace",
+    "mslor": 80,
+    "mslod": 45,
+    "msltc": 30,
+    "product_age": 90,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "287133": {
+    "null": 875,
+    "product_name": "Ayam Negeri Organik Probiotik+Jamu Baby LactoFarm 600-700gram",
+    "mslor": 315,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 360,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "447744": {
+    "null": 823,
+    "product_name": "Paha Ayam Boneless (BSL) Chicken Thigh BestChicken 450-550gram",
+    "mslor": 180,
+    "mslod": 84,
+    "msltc": 75,
+    "product_age": 360,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8999999593803": {
+    "null": 837,
+    "product_name": "Walls 2in1 Marie & Chocolate/Es Krim Walls",
+    "mslor": 360,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993351174242": {
+    "null": 844,
+    "product_name": "Greenfields Strawberry Susu UHT 200 ml",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "147334": {
+    "null": 846,
+    "product_name": "Terong Ungu Astro Farm",
+    "mslor": 5,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "862327": {
+    "null": 852,
+    "product_name": "Durian Papi Monthong Frozen Premium 460gr-500gr/pack",
+    "mslor": 360,
+    "mslod": 270,
+    "msltc": 90,
+    "product_age": 451,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993200661657": {
+    "null": 853,
+    "product_name": "Cimory Blueberry Yogurt Drink",
+    "mslor": 110,
+    "mslod": 46,
+    "msltc": 35,
+    "product_age": 0,
+    "rack_storage_name": "Chiller (0C - 5C)"
+  },
+  "8998866820455": {
+    "null": 854,
+    "product_name": "Glico Wings Haku Tiramisu",
+    "mslor": 225,
+    "mslod": 94,
+    "msltc": 75,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8992933241112": {
+    "null": 855,
+    "product_name": "Nutrijell Cokelat Sachet",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992933468113": {
+    "null": 856,
+    "product_name": "Nutrijell Pudding Susu Bubuk Rasa Vanilla",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992933463118": {
+    "null": 857,
+    "product_name": "Nutrijell Pudding Susu Bubuk Rasa Mangga",
+    "mslor": 315,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "166555": {
+    "null": 865,
+    "product_name": "Dada Ayam Boneless Fillet Organik Probiotik LactoFarm/Chicken Breast",
+    "mslor": 300,
+    "mslod": 86,
+    "msltc": 75,
+    "product_age": 360,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "775740": {
+    "null": 866,
+    "product_name": "Paha Ayam Boneless Fillet Organik Probiotik LactoFarm/Chicken Thigh",
+    "mslor": 300,
+    "mslod": 86,
+    "msltc": 75,
+    "product_age": 360,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "80768258": {
+    "null": 878,
+    "product_name": "Kinder Joy Chocolate For Girls",
+    "mslor": 150,
+    "mslod": 75,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997225200013": {
+    "null": 879,
+    "product_name": "Green Sands Lemon & Grape Can",
+    "mslor": 240,
+    "mslod": 210,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8995227500247": {
+    "null": 880,
+    "product_name": "Larutan Cap Kaki Tiga Jambu Can",
+    "mslor": 240,
+    "mslod": 210,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8991102900607": {
+    "null": 881,
+    "product_name": "Kiranti Juice Orange",
+    "mslor": 240,
+    "mslod": 210,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8995227500230": {
+    "null": 882,
+    "product_name": "Larutan Cap Kaki Tiga Grape",
+    "mslor": 240,
+    "mslod": 210,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "981787": {
+    "null": 883,
+    "product_name": "Stir Fried Tofu and Mushroom Astro Goods x Satu Porsi",
+    "mslor": 50,
+    "mslod": 30,
+    "msltc": 7,
+    "product_age": 60,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "919479": {
+    "null": 884,
+    "product_name": "Oolong Apple Manatea x Astro Goods/Es Krim",
+    "mslor": 75,
+    "mslod": 21,
+    "msltc": 7,
+    "product_age": 90,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8886022950538": {
+    "null": 885,
+    "product_name": "ABC Baterai Alkaline 9V Kotak",
+    "mslor": 720,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992752091318": {
+    "null": 887,
+    "product_name": "AQUA Air Mineral Multipack 600ml",
+    "mslor": 420,
+    "mslod": 186,
+    "msltc": 150,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992770096135": {
+    "null": 894,
+    "product_name": "Saori Saus Tiram Botol",
+    "mslor": 180,
+    "mslod": 114,
+    "msltc": 90,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992946512285": {
+    "null": 895,
+    "product_name": "Shinzui Kirei Lightening Barsoap",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992946523533": {
+    "null": 896,
+    "product_name": "Shinzui Kirei Body Cleanser Refill",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "485095": {
+    "null": 897,
+    "product_name": "Croissant Premium Plain - Maison Pierre (Frozen/Ready to Eat) Pastry",
+    "mslor": 75,
+    "mslod": 40,
+    "msltc": 30,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "567036": {
+    "null": 898,
+    "product_name": "Chicken Tenderloin Fillet Marinade Cajun Astro Goods",
+    "mslor": 180,
+    "mslod": 112,
+    "msltc": 90,
+    "product_age": 180,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "162482": {
+    "null": 899,
+    "product_name": "Salmon Fillet Astro Farm",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 360,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999567781": {
+    "null": 900,
+    "product_name": "Rinso Matic Professional Deterjen Cair",
+    "mslor": 720,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "590650": {
+    "null": 941,
+    "product_name": "Tempe Mendoan",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 2,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "216265": {
+    "null": 926,
+    "product_name": "Tomat Merah Ekonomis Astro Farm",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "533455": {
+    "null": 934,
+    "product_name": "Jahe Putih Astro Farm",
+    "mslor": 10,
+    "mslod": 6,
+    "msltc": 1,
+    "product_age": 12,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "839251": {
+    "null": 907,
+    "product_name": "Telur Ayam Negeri Astro Farm",
+    "mslor": 20,
+    "mslod": 18,
+    "msltc": 11,
+    "product_age": 25,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "392486": {
+    "null": 905,
+    "product_name": "Kacang Edamame Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "941148": {
+    "null": 906,
+    "product_name": "Paprika Merah Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "465207": {
+    "null": 908,
+    "product_name": "Fresh Bites Honi Pineapple Buah Potong",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 1,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "777749": {
+    "null": 992,
+    "product_name": "Pepaya California Astro Farm 1 pcs",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8999999564513": {
+    "null": 910,
+    "product_name": "Dove Serum Body Wash Moisture Renew",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "816874": {
+    "null": 911,
+    "product_name": "Lifebuoy Total 10 Antibacterial Barsoap 4 pcs",
+    "mslor": 540,
+    "mslod": 222,
+    "msltc": 180,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "138006": {
+    "null": 912,
+    "product_name": "Timun Jepang Kyuri Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "370752": {
+    "null": 913,
+    "product_name": "Jamur Swiss Brown Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 2,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "161377": {
+    "null": 914,
+    "product_name": "Tempe",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "800190": {
+    "null": 915,
+    "product_name": "Fresh Bites Buah Potong Mixed Fruits",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 5,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "387664": {
+    "null": 917,
+    "product_name": "Strawberry Fresh Lokal Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "214440": {
+    "null": 967,
+    "product_name": "Daun Kari Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "243054": {
+    "null": 919,
+    "product_name": "Nangka Kupas Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 5,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "534632": {
+    "null": 993,
+    "product_name": "Anggur Hijau Stella Bella Seedless Astro Farm",
+    "mslor": 6,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 7,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "109093": {
+    "null": 987,
+    "product_name": "Alpukat Mentega Astro Farm 2-4 pcs",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992907910037": {
+    "null": 939,
+    "product_name": "Sari Roti Burger Bun",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "147060": {
+    "null": 998,
+    "product_name": "Simply Wheat Bread Kupas Roti Tawar Astro Goods",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 6,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993200348312": {
+    "null": 974,
+    "product_name": "Kanzler Singles Original Ready to Eat Sausages",
+    "mslor": 130,
+    "mslod": 45,
+    "msltc": 30,
+    "product_age": 180,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "837697": {
+    "null": 925,
+    "product_name": "Telur Ayam Kampung Omega",
+    "mslor": 21,
+    "mslod": 12,
+    "msltc": 7,
+    "product_age": 26,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "509839": {
+    "null": 927,
+    "product_name": "Selada Keriting Konvensional Astro Farm",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "889869": {
+    "null": 928,
+    "product_name": "Cumi Ring Astro Farm",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 180,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "711575": {
+    "null": 929,
+    "product_name": "Durian Lokal Medan Frozen Astro Farm",
+    "mslor": 90,
+    "mslod": 35,
+    "msltc": 26,
+    "product_age": 121,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "224464": {
+    "null": 943,
+    "product_name": "Roti Tawar A Basics",
+    "mslor": 9,
+    "mslod": 5,
+    "msltc": 3,
+    "product_age": 9,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "435124": {
+    "null": 932,
+    "product_name": "Farmer's Omega 3 Eggs Astro Farm",
+    "mslor": 21,
+    "mslod": 19,
+    "msltc": 12,
+    "product_age": 26,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "891102715881": {
+    "null": 933,
+    "product_name": "Amani Yogurt Sip Mixed Berry",
+    "mslor": 90,
+    "mslod": 21,
+    "msltc": 7,
+    "product_age": 180,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "242074": {
+    "null": 935,
+    "product_name": "Pesto Pasta Sauce Astro Goods",
+    "mslor": 45,
+    "mslod": 18,
+    "msltc": 12,
+    "product_age": 60,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8994046110170": {
+    "null": 936,
+    "product_name": "My Roti Pie Vla Susu",
+    "mslor": 8,
+    "mslod": 6,
+    "msltc": 2,
+    "product_age": 9,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "218284": {
+    "null": 945,
+    "product_name": "Selada Air Astro Farm",
+    "mslor": 3,
+    "mslod": 2,
+    "msltc": 1,
+    "product_age": 5,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "901597": {
+    "null": 938,
+    "product_name": "Cabe Hijau Keriting Astro Farm",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992907420017": {
+    "null": 940,
+    "product_name": "Sari Roti Sandroll Zupperr Coklat",
+    "mslor": 5,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 4,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997228750171": {
+    "null": 950,
+    "product_name": "Pick Me Telur Bebek Mentah",
+    "mslor": 21,
+    "mslod": 12,
+    "msltc": 7,
+    "product_age": 29,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "871730": {
+    "null": 946,
+    "product_name": "Melon Saga Premium Size XL Astro Farm",
+    "mslor": 20,
+    "mslod": 19,
+    "msltc": 1,
+    "product_age": 22,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992761136178": {
+    "null": 947,
+    "product_name": "Sprite Minuman Soda Botol",
+    "mslor": 135,
+    "mslod": 58,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8992220380005": {
+    "null": 948,
+    "product_name": "Giggly Coco Fresh Young Coconut/Kelapa Muda",
+    "mslor": 24,
+    "mslod": 15,
+    "msltc": 7,
+    "product_age": 18,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8996129809131": {
+    "null": 949,
+    "product_name": "Cleo Air Murni Multipack 220ml",
+    "mslor": 360,
+    "mslod": 148,
+    "msltc": 120,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "977901": {
+    "null": 951,
+    "product_name": "Wagyu MB5 Beef Slice Meatboys x Astro Farm",
+    "mslor": 300,
+    "mslod": 120,
+    "msltc": 90,
+    "product_age": 360,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "692558": {
+    "null": 952,
+    "product_name": "La Maison De Pierre Danish Cinnamon Premium Pastry Frozen",
+    "mslor": 75,
+    "mslod": 40,
+    "msltc": 30,
+    "product_age": 90,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "347838": {
+    "null": 953,
+    "product_name": "Mangga Harum Manis Astro Farm 2-4 pcs",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 1,
+    "product_age": 5,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993492101121": {
+    "null": 964,
+    "product_name": "Golden Farm French Fries Crinkle Cut",
+    "mslor": 225,
+    "mslod": 58,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "460056": {
+    "null": 965,
+    "product_name": "Dang Sweet Melon Marakaito 900-1200 gram",
+    "mslor": 9,
+    "mslod": 8,
+    "msltc": 1,
+    "product_age": 11,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "570825": {
+    "null": 968,
+    "product_name": "Ubi Merah Astro Farm",
+    "mslor": 12,
+    "mslod": 7,
+    "msltc": 1,
+    "product_age": 15,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993492102470": {
+    "null": 973,
+    "product_name": "Golden Farm Edamame Salted",
+    "mslor": 225,
+    "mslod": 58,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993200668496": {
+    "null": 975,
+    "product_name": "Kanzler Singles Bakso Original Ready to Eat",
+    "mslor": 130,
+    "mslod": 45,
+    "msltc": 30,
+    "product_age": 180,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993200668984": {
+    "null": 976,
+    "product_name": "Kanzler Singles Bakso Hot Ready to Eat",
+    "mslor": 130,
+    "mslod": 45,
+    "msltc": 30,
+    "product_age": 180,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993200347315": {
+    "null": 979,
+    "product_name": "Kanzler Singles Mini Sausages",
+    "mslor": 130,
+    "mslod": 45,
+    "msltc": 30,
+    "product_age": 180,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993200345618": {
+    "null": 981,
+    "product_name": "Kanzler Garlic Frankfurter Sausages",
+    "mslor": 180,
+    "mslod": 59,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "626679": {
+    "null": 982,
+    "product_name": "Paha Ayam Bawah Astro Farm Regular",
+    "mslor": 180,
+    "mslod": 76,
+    "msltc": 60,
+    "product_age": 240,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993351129334": {
+    "null": 984,
+    "product_name": "Greenfields Fresh Milk Cafe Latte Low Fat",
+    "mslor": 21,
+    "mslod": 12,
+    "msltc": 7,
+    "product_age": 40,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8993492101077": {
+    "null": 985,
+    "product_name": "Golden Farm Vegetable Green Peas Frozen",
+    "mslor": 225,
+    "mslod": 58,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8993904004415": {
+    "null": 986,
+    "product_name": "Indofood Espessia Es Potong Rasa Es Teler Es Krim",
+    "mslor": 344,
+    "mslod": 60,
+    "msltc": 45,
+    "product_age": 0,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "992778": {
+    "null": 988,
+    "product_name": "Kecombrang Astro Farm",
+    "mslor": 6,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "403369": {
+    "null": 989,
+    "product_name": "Amazing Farm Kacang Edamame 500 gram",
+    "mslor": 6,
+    "mslod": 4,
+    "msltc": 2,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "237255": {
+    "null": 990,
+    "product_name": "Cabe Hijau Besar Astro Farm",
+    "mslor": 7,
+    "mslod": 5,
+    "msltc": 1,
+    "product_age": 8,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "263095": {
+    "null": 995,
+    "product_name": "Beef Yakiniku Single Portion Astro Goods",
+    "mslor": 50,
+    "mslod": 30,
+    "msltc": 14,
+    "product_age": 61,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "430485": {
+    "null": 996,
+    "product_name": "Chicken Yakiniku Single Portion Astro Goods",
+    "mslor": 50,
+    "mslod": 30,
+    "msltc": 14,
+    "product_age": 61,
+    "rack_storage_name": "Frozen Room (-15C -18C)"
+  },
+  "8992907996772": {
+    "null": 997,
+    "product_name": "Sari Kue Dorayaki Strawberry",
+    "mslor": 4,
+    "mslod": 3,
+    "msltc": 2,
+    "product_age": 0,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  },
+  "8997205335322": {
+    "null": 999,
+    "product_name": "Telur Puyuh",
+    "mslor": 21,
+    "mslod": 13,
+    "msltc": 7,
+    "product_age": 25,
+    "rack_storage_name": "Ambient Room (25C - 30C)"
+  }
+}
