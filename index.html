@@ -791,7 +791,6 @@ function startScanner() {
         (decodedText) => {
           let cleaned = decodedText.includes(";") ? decodedText.split(";")[0] : decodedText;
           cleaned = cleaned.trim().replace(/[^0-9]/g, "");
-          document.getElementById('beep').play();
 
           document.getElementById("qr-input").value = cleaned;
 
