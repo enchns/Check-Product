@@ -510,7 +510,7 @@
 
     <div class="input-wrap">
       <label>EXPIRED DATE <span class="required-star">*</span></label>
-      <input type="date" id="ed-input" oninput="checkExpiry()" />
+      <input type="date" id="ed-input" oninput="checkExpiry()" onfocus="clearResult()" />
     </div>
 
     <!-- ALERT RESULT -->
@@ -606,6 +606,38 @@ function scanProduct() {
   document.getElementById('disp-msltc').innerText = product.msltc;
   document.getElementById('disp-mslor').innerText = product.mslor;
   document.getElementById('disp-mslod').innerText = product.mslod;
+  // RESET UI SAAT GANTI PRODUK
+ document.getElementById('ed-input').value = '';
+ document.getElementById('result-section').innerHTML = '';
+ document.getElementById('result-section').style.display = 'none';
+ document.getElementById('days-bar').style.display = 'none';
+ document.getElementById('status-badge').innerHTML = '';
+ document.getElementById('save-btn').disabled = true;
+}
+function resetForm() {
+  document.getElementById('qr-input').value = '';
+  document.getElementById('ed-input').value = '';
+
+  document.getElementById('not-found').style.display = 'none';
+  document.getElementById('product-section').style.display = 'none';
+
+  document.getElementById('result-section').innerHTML = '';
+  document.getElementById('result-section').style.display = 'none';
+
+  document.getElementById('days-bar').style.display = 'none';
+  document.getElementById('status-badge').innerHTML = '';
+
+  document.getElementById('save-btn').disabled = true;
+
+  currentProduct = null;
+}
+
+function clearResult() {
+  document.getElementById('result-section').innerHTML = '';
+  document.getElementById('result-section').style.display = 'none';
+  document.getElementById('days-bar').style.display = 'none';
+  document.getElementById('status-badge').innerHTML = '';
+  document.getElementById('save-btn').disabled = true;
 }
 
 function checkExpiry() {
