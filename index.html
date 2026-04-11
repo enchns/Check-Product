@@ -8,41 +8,512 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-/* === UI ASLI DIPERTAHANKAN === */
-body { font-family:'Plus Jakarta Sans', sans-serif; background:#f0fdf4; }
-.container { max-width:560px; margin:auto; padding:20px; }
-.card { background:white; padding:20px; border-radius:12px; margin-bottom:12px; }
-input, button { width:100%; padding:12px; margin-top:10px; border-radius:10px; }
-.scan-btn { background:#22c55e; color:white; border:none; cursor:pointer; }
-.not-found { color:red; margin-top:10px; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --green: #22c55e;
+    --green-dark: #16a34a;
+    --green-light: #dcfce7;
+    --orange: #f97316;
+    --orange-light: #fff7ed;
+    --red: #ef4444;
+    --red-light: #fef2f2;
+    --yellow: #eab308;
+    --yellow-light: #fefce8;
+    --bg: #f0fdf4;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --text: #1e293b;
+    --muted: #64748b;
+    --radius: 16px;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    color: var(--text);
+    padding-bottom: 40px;
+  }
+
+  .header {
+    background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 4px 20px rgba(22,163,74,0.3);
+  }
+
+  .header-icon {
+    width: 40px; height: 40px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+  }
+
+  .header h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+  }
+
+  .header p {
+    color: rgba(255,255,255,0.75);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .container { max-width: 560px; margin: 0 auto; padding: 24px 16px; }
+
+  .card {
+    background: var(--card);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    padding: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+
+  .card-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--muted);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .card-title::before {
+    content: '';
+    width: 3px; height: 14px;
+    background: var(--green);
+    border-radius: 2px;
+  }
+
+  label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  .required-star { color: var(--red); margin-left: 2px; }
+
+  .input-wrap {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  input[type=text], input[type=date] {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    background: #f8fafc;
+    outline: none;
+    transition: all 0.2s;
+  }
+
+  input[type=text]:focus, input[type=date]:focus {
+    border-color: var(--green);
+    background: white;
+    box-shadow: 0 0 0 4px rgba(34,197,94,0.1);
+  }
+
+  .input-suffix {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    pointer-events: none;
+  }
+
+  .scan-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.2s;
+    box-shadow: 0 4px 16px rgba(34,197,94,0.3);
+    margin-top: 4px;
+  }
+
+  .scan-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(34,197,94,0.4); }
+  .scan-btn:active { transform: translateY(0); }
+
+  .field-display {
+    background: #f8fafc;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 20px;
+    min-height: 46px;
+  }
+
+  .field-display.empty { color: var(--muted); font-style: italic; font-weight: 400; }
+
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+
+  .badge-fresh { background: var(--green-light); color: var(--green-dark); }
+  .badge-frozen { background: #eff6ff; color: #1d4ed8; }
+  .badge-dry { background: #fef9c3; color: #854d0e; }
+
+  .alert-box {
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    animation: slideIn 0.3s ease;
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .alert-expired {
+    background: var(--red-light);
+    border: 1.5px solid #fca5a5;
+  }
+
+  .alert-critical {
+    background: var(--orange-light);
+    border: 1.5px solid #fdba74;
+  }
+
+  .alert-warning {
+    background: var(--yellow-light);
+    border: 1.5px solid #fde047;
+  }
+
+  .alert-ok {
+    background: var(--green-light);
+    border: 1.5px solid #86efac;
+  }
+
+  .alert-icon { font-size: 22px; line-height: 1; flex-shrink: 0; margin-top: 1px; }
+
+  .alert-title {
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+
+  .alert-expired .alert-title { color: var(--red); }
+  .alert-critical .alert-title { color: #c2410c; }
+  .alert-warning .alert-title { color: #854d0e; }
+  .alert-ok .alert-title { color: var(--green-dark); }
+
+  .alert-msg {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .alert-expired .alert-msg { color: #b91c1c; }
+  .alert-critical .alert-msg { color: #c2410c; }
+  .alert-warning .alert-msg { color: #854d0e; }
+  .alert-ok .alert-msg { color: #15803d; }
+
+  .msltc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .msltc-item {
+    background: #f8fafc;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .msltc-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+
+  .msltc-value {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text);
+  }
+
+  .msltc-unit {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--muted);
+  }
+
+  .days-bar {
+    margin-top: 16px;
+    padding: 14px;
+    background: #f8fafc;
+    border-radius: 10px;
+    border: 1.5px solid var(--border);
+  }
+
+  .days-bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  .days-bar-track {
+    height: 10px;
+    background: #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .days-bar-fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease, background 0.3s;
+  }
+
+  .not-found {
+    text-align: center;
+    padding: 20px;
+    color: var(--red);
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .history-list { display: flex; flex-direction: column; gap: 10px; }
+
+  .history-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    font-size: 13px;
+  }
+
+  .history-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .history-name { font-weight: 600; flex: 1; }
+  .history-time { color: var(--muted); font-size: 11px; }
+  .history-status { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 8px; }
+
+  .empty-state {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 20px;
+    font-weight: 500;
+  }
+
+  .save-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #1e293b, #334155);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.2s;
+    margin-top: 8px;
+  }
+
+  .save-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .save-btn:not(:disabled):hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(30,41,59,0.3); }
+
+  .reset-btn {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: var(--muted);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: all 0.2s;
+  }
+
+  .reset-btn:hover { border-color: var(--red); color: var(--red); }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 16px 0;
+  }
+
+  #product-section { display: none; }
+  #result-section { display: none; }
 </style>
 </head>
-
 <body>
+
+<div class="header">
+  <div class="header-icon">🔍</div>
+  <div>
+    <h1>Check Product</h1>
+    <p>Scan & verifikasi expired date produk</p>
+  </div>
+</div>
+
 <div class="container">
 
-<h2>Check Product</h2>
+  <!-- SCAN SECTION -->
+ <div class="input-wrap">
+  <label>QR CODE / SKU <span class="required-star">*</span></label>
 
-<input type="text" id="qr-input" placeholder="Scan / input barcode">
-<button onclick="startScanner()">📷 Scan</button>
-<div id="reader" style="display:none"></div>
+  <div style="display:flex; gap:8px;">
+    <input type="text" id="qr-input" placeholder="Ketik atau scan QR Code..." autocomplete="off" />
 
-<button class="scan-btn" onclick="scanProduct()">🔎 Cari Produk</button>
-<div id="not-found" class="not-found"></div>
+    <button onclick="startScanner()" 
+      style="
+        min-width:48px;
+        border:none;
+        border-radius:10px;
+        background:#22c55e;
+        color:white;
+        font-size:18px;
+        cursor:pointer;
+      ">
+      📷
+    </button>
+  </div>
+<div id="reader" style="width:100%; margin-top:10px; display:none;"></div>
+</div>
+    <button class="scan-btn" onclick="scanProduct()">
+  🔎 Cari Produk
+</button>
+<div id="reader" style="width:100%; margin-top:10px; display:none;"></div>
+    <div id="not-found" class="not-found" style="display:none"></div>
+  </div>
 
-<div class="card" id="product-section" style="display:none">
-  <h3 id="name"></h3>
-  <p id="storage"></p>
+  <!-- PRODUCT INFO SECTION -->
+  <div class="card" id="product-section">
+    <div class="card-title">Informasi Produk</div>
 
-  <p>MSLTC: <span id="msltc"></span></p>
-  <p>MSLOR: <span id="mslor"></span></p>
-  <p>MSLOD: <span id="mslod"></span></p>
+    <label>PRODUCT NAME</label>
+    <div class="field-display" id="disp-name">—</div>
 
-  <input type="date" id="ed-input" onchange="checkExpiry()">
-  <div id="result"></div>
+    <label>STORAGE HANDLING</label>
+    <div class="field-display" id="disp-storage">—</div>
+
+    <div class="msltc-grid">
+      <div class="msltc-item">
+        <div class="msltc-label">MSLTC</div>
+        <div class="msltc-value" id="disp-msltc">—</div>
+        <div class="msltc-unit">hari</div>
+      </div>
+      <div class="msltc-item">
+        <div class="msltc-label">MSLOR</div>
+        <div class="msltc-value" id="disp-mslor">—</div>
+        <div class="msltc-unit">hari</div>
+      </div>
+      <div class="msltc-item">
+        <div class="msltc-label">MSLOD</div>
+        <div class="msltc-value" id="disp-mslod">—</div>
+        <div class="msltc-unit">hari</div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="input-wrap">
+      <label>EXPIRED DATE <span class="required-star">*</span></label>
+      <input type="date" id="ed-input" oninput="checkExpiry()" />
+    </div>
+
+    <!-- ALERT RESULT -->
+    <div id="result-section"></div>
+
+    <!-- DAYS BAR -->
+    <div class="days-bar" id="days-bar" style="display:none">
+      <div class="days-bar-label">
+        <span>Sisa hari</span>
+        <span id="days-label">—</span>
+      </div>
+      <div class="days-bar-track">
+        <div class="days-bar-fill" id="days-fill"></div>
+      </div>
+    </div>
+
+    <hr class="divider">
+    <button class="save-btn" id="save-btn" onclick="saveRecord()" disabled>
+      💾 Simpan Record
+    </button>
+    <button class="reset-btn" onclick="resetForm()">↺ Reset / Scan Baru</button>
+  </div>
+
+  <!-- HISTORY -->
+  <div class="card">
+    <div class="card-title">Riwayat Scan Session Ini</div>
+    <div id="history-list" class="history-list">
+      <div class="empty-state">Belum ada scan dalam sesi ini</div>
+    </div>
+  </div>
+
 </div>
 
-</div>
 
 <script>
 /* =============================
@@ -111,44 +582,225 @@ function scanProduct() {
    CEK EXPIRED
    ============================= */
 function checkExpiry() {
-  const ed = document.getElementById('ed-input').value;
-  if (!ed) return;
+  if (!currentProduct) return;
+  
+  const edVal = document.getElementById('ed-input').value;
+  const resultSection = document.getElementById('result-section');
+  const daysBar = document.getElementById('days-bar');
+  const saveBtn = document.getElementById('save-btn');
+
+  if (!edVal) {
+    resultSection.innerHTML = '';
+    resultSection.style.display = 'none';
+    daysBar.style.display = 'none';
+    saveBtn.disabled = true;
+    return;
+  }
 
   const today = new Date();
-  const exp = new Date(ed);
-  const diff = Math.ceil((exp - today)/(1000*60*60*24));
+  today.setHours(0, 0, 0, 0);
+  const ed = new Date(edVal);
+  ed.setHours(0, 0, 0, 0);
 
-  let status = '';
+  const diffMs = ed - today;
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  const msltc = currentProduct.msltc ?? 0;
 
-  if (diff < 0) status = '❌ EXPIRED ('+diff+' hari)';
-  else if (diff <= 2) status = '🔥 CRITICAL ('+diff+' hari)';
-  else if (diff <= 5) status = '⚠️ WARNING ('+diff+' hari)';
-  else status = '✅ AMAN ('+diff+' hari)';
+  let alertHTML = '';
+  let barColor = '';
+  let barPct = 0;
+  let statusLabel = '';
+  let dotColor = '';
 
-  document.getElementById('result').innerText = status;
+  if (diffDays < 0) {
+    // Already expired
+    const expiredDays = Math.abs(diffDays);
+    alertHTML = `<div class="alert-box alert-expired">
+      <div class="alert-icon">🚫</div>
+      <div>
+        <div class="alert-title">PRODUK SUDAH EXPIRED!</div>
+        <div class="alert-msg">Produk ini sudah kadaluarsa ${expiredDays} hari yang lalu. Segera lakukan bad stock dan jangan di-order.</div>
+      </div>
+    </div>`;
+    barColor = '#ef4444';
+    barPct = 100;
+    statusLabel = 'EXPIRED';
+    dotColor = '#ef4444';
+  } else if (diffDays === 0) {
+    alertHTML = `<div class="alert-box alert-expired">
+      <div class="alert-icon">🚫</div>
+      <div>
+        <div class="alert-title">EXPIRED HARI INI!</div>
+        <div class="alert-msg">Produk ini expired hari ini. Segera bad stock dan jangan di-order.</div>
+      </div>
+    </div>`;
+    barColor = '#ef4444';
+    barPct = 100;
+    statusLabel = 'EXPIRED';
+    dotColor = '#ef4444';
+  } else if (diffDays <= msltc) {
+    // Critical: days remaining <= MSLTC
+    alertHTML = `<div class="alert-box alert-critical">
+      <div class="alert-icon">⏳</div>
+      <div>
+        <div class="alert-title">⚠️ PRODUK MENDEKATI KADALUARSA!</div>
+        <div class="alert-msg">Produk mendekati kadaluarsa, sisa <strong>${diffDays} hari lagi</strong> sebelum Expired. Tolong segera di bad stock sebelum ke order.</div>
+      </div>
+    </div>`;
+    barColor = '#f97316';
+    barPct = msltc > 0 ? Math.round((diffDays / msltc) * 100) : 50;
+    statusLabel = 'NEAR EXPIRED';
+    dotColor = '#f97316';
+  } else {
+    // OK
+    alertHTML = `<div class="alert-box alert-ok">
+      <div class="alert-icon">✅</div>
+      <div>
+        <div class="alert-title">PRODUK MASIH BAIK</div>
+        <div class="alert-msg">Sisa <strong>${diffDays} hari</strong> sebelum expired. Produk layak untuk diorder.</div>
+      </div>
+    </div>`;
+    const maxDays = Math.max(currentProduct.mslor ?? 0, 90);
+    barColor = '#22c55e';
+    barPct = Math.min(Math.round((diffDays / maxDays) * 100), 100);
+    statusLabel = 'OK';
+    dotColor = '#22c55e';
+  }
+
+  resultSection.innerHTML = alertHTML;
+  resultSection.style.display = 'block';
+
+  // Days bar
+  document.getElementById('days-label').textContent = diffDays < 0 ? 'Sudah expired' : diffDays + ' hari';
+  document.getElementById('days-fill').style.width = barPct + '%';
+  document.getElementById('days-fill').style.background = barColor;
+  daysBar.style.display = 'block';
+
+  saveBtn.disabled = false;
+  
+  // Store for saving
+  currentProduct._ed = edVal;
+  currentProduct._diffDays = diffDays;
+  currentProduct._status = statusLabel;
+  currentProduct._dotColor = dotColor;
 }
 
-/* =============================
-   SCANNER
-   ============================= */
+function saveRecord() {
+  if (!currentProduct || !currentProduct._ed) return;
+  
+  const now = new Date();
+  const timeStr = now.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' });
+  
+  history.unshift({
+    sku: currentProduct.sku_number,
+    name: currentProduct.name,
+    ed: currentProduct._ed,
+    diffDays: currentProduct._diffDays,
+    status: currentProduct._status,
+    dotColor: currentProduct._dotColor,
+    time: timeStr
+  });
+
+  renderHistory();
+  
+  // Show saved feedback
+  const btn = document.getElementById('save-btn');
+  btn.textContent = '✓ Tersimpan!';
+  btn.style.background = 'linear-gradient(135deg, #22c55e, #16a34a)';
+  setTimeout(() => {
+    btn.innerHTML = '💾 Simpan Record';
+    btn.style.background = '';
+  }, 1500);
+}
+
+function renderHistory() {
+  const container = document.getElementById('history-list');
+  if (history.length === 0) {
+    container.innerHTML = '<div class="empty-state">Belum ada scan dalam sesi ini</div>';
+    return;
+  }
+  container.innerHTML = history.map(h => `
+    <div class="history-item">
+      <div class="history-dot" style="background:${h.dotColor}"></div>
+      <div style="flex:1;min-width:0">
+        <div class="history-name" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${h.name}</div>
+        <div style="font-size:11px;color:var(--muted)">SKU: ${h.sku} · ED: ${formatDate(h.ed)} · ${h.diffDays < 0 ? Math.abs(h.diffDays)+' hari lalu' : h.diffDays+' hari lagi'}</div>
+      </div>
+      <div>
+        <div class="history-status" style="background:${h.dotColor}22;color:${h.dotColor}">${h.status}</div>
+        <div class="history-time" style="text-align:right;margin-top:3px">${h.time}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function formatDate(dateStr) {
+  const [y, m, d] = dateStr.split('-');
+  return d + '/' + m + '/' + y;
+}
+
+function resetForm() {
+  document.getElementById('qr-input').value = '';
+  document.getElementById('not-found').style.display = 'none';
+  document.getElementById('product-section').style.display = 'none';
+  document.getElementById('result-section').innerHTML = '';
+  document.getElementById('result-section').style.display = 'none';
+  document.getElementById('days-bar').style.display = 'none';
+  currentProduct = null;
+  document.getElementById('qr-input').focus();
+}
+
+// Enter key support
+document.getElementById('qr-input').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') scanProduct();
+});
+let scanner = null;
+
 function startScanner() {
-  const reader = document.getElementById('reader');
-  reader.style.display = 'block';
+  const reader = document.getElementById("reader");
 
-  const html5QrCode = new Html5Qrcode("reader");
+  if (scanner) {
+    scanner.stop().then(() => {
+      scanner.clear();
+      scanner = null;
+      reader.style.display = "none";
+    });
+    return;
+  }
 
-  html5QrCode.start(
-    { facingMode: "environment" },
-    { fps: 10, qrbox: 250 },
-    (decodedText) => {
-      document.getElementById('qr-input').value = decodedText;
-      html5QrCode.stop();
-      reader.style.display = 'none';
+  reader.style.display = "block";
+
+  scanner = new Html5Qrcode("reader");
+
+  Html5Qrcode.getCameras().then(devices => {
+    if (devices.length) {
+      let backCam = devices.find(d => d.label.toLowerCase().includes("back")) || devices[0];
+
+      scanner.start(
+        backCam.id,
+        { fps: 10, qrbox: 250 },
+        (decodedText) => {
+        let raw = decodedText;
+        let cleaned = raw.includes(";") ? raw.split(";")[0] : raw;
+          cleaned = cleaned.trim();
+          cleaned = cleaned.replace(/[^0-9]/g, "");
+        document.getElementById("qr-input").value = cleaned;
+        console.log("RAW:", raw);
+        console.log("CLEANED:", cleaned);
+
+
+          scanner.stop().then(() => {
+            scanner.clear();
+            scanner = null;
+            reader.style.display = "none";
+          });
+
+          scanProduct();
+        }
+      );
     }
-  );
+  });
 }
-
 </script>
-
 </body>
 </html>
