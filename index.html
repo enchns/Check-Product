@@ -616,16 +616,6 @@ function checkExpiry() {
   const daysBar = document.getElementById('days-bar');
   const saveBtn = document.getElementById('save-btn');
 
-// SET BADGE (SUDAH AMAN)
-if (statusLabel === 'EXPIRED') {
-  badge.innerHTML = '<span class="badge" style="background:#fee2e2;color:#b91c1c;">EXPIRED</span>';
-} else if (statusLabel === 'NEAR EXPIRED') {
-  badge.innerHTML = '<span class="badge" style="background:#ffedd5;color:#c2410c;">NEAR EXPIRED</span>';
-} else {
-  badge.innerHTML = '<span class="badge badge-fresh">OK</span>';
-}
-currentProduct._dotColor = dotColor;
-
   if (!edVal) {
     resultSection.innerHTML = '';
     resultSection.style.display = 'none';
@@ -703,6 +693,15 @@ currentProduct._dotColor = dotColor;
     statusLabel = 'OK';
     dotColor = '#22c55e';
   }
+  // SET BADGE (SUDAH AMAN)
+if (statusLabel === 'EXPIRED') {
+  badge.innerHTML = '<span class="badge" style="background:#fee2e2;color:#b91c1c;">EXPIRED</span>';
+} else if (statusLabel === 'NEAR EXPIRED') {
+  badge.innerHTML = '<span class="badge" style="background:#ffedd5;color:#c2410c;">NEAR EXPIRED</span>';
+} else {
+  badge.innerHTML = '<span class="badge badge-fresh">OK</span>';
+}
+currentProduct._dotColor = dotColor;
 
   resultSection.innerHTML = alertHTML;
   resultSection.style.display = 'block';
