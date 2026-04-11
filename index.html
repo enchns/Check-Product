@@ -717,5 +717,53 @@ function resetForm() {
   currentProduct = null;
 }
 </script>
+<script>
+let scanner = null;
+
+function startScanner() {
+  const reader = document.getElementById("reader");
+
+  if (scanner) {
+    scanner.stop().then(() => {
+      scanner.clear();
+      scanner = null;
+      reader.style.display = "none";
+    });
+    return;
+  }
+
+  reader.style.display = "block";
+
+  scanner = new Html5Qrcode("reader");
+
+  Html5Qrcode.getCameras().then(devices => {
+    if (devices.length) {
+      let backCam = devices.find(d => d.label.toLowerCase().includes("back")) || devices[0];
+
+      scanner.start(
+        backCam.id,
+        { fps: 10, qrbox: 250 },
+        (decodedText) => {
+          let cleaned = decodedText.includes(";") ? decodedText.split(";")[0] : decodedText;
+          cleaned = cleaned.trim().replace(/[^0-9]/g, "");
+
+          document.getElementById("qr-input").value = cleaned;
+
+          scanner.stop().then(() => {
+            scanner.clear();
+            scanner = null;
+            reader.style.display = "none";
+          });
+
+          scanProduct();
+        }
+      );
+    }
+  }).catch(err => {
+    alert("Kamera tidak bisa diakses");
+    console.error(err);
+  });
+}
+</script>
 </body>
 </html>
