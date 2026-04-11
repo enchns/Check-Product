@@ -444,7 +444,6 @@
     <button class="scan-btn" onclick="scanProduct()">
   🔎 Cari Produk
 </button>
-<div id="reader" style="width:100%; margin-top:10px; display:none;"></div>
     <div id="not-found" class="not-found" style="display:none"></div>
   </div>
 
@@ -516,17 +515,14 @@
 
 
 <script>
-/* =============================
-   LOAD DATA DARI products.json
-   ============================= */
 let MASTER = {};
 let isLoaded = false;
+let currentProduct = null;
+let history = [];
 
 async function loadProducts() {
   try {
     const res = await fetch('./products.json');
-    console.log('STATUS:', res.status);
-
     const data = await res.json();
 
     Object.keys(data).forEach(key => {
@@ -540,18 +536,13 @@ async function loadProducts() {
     });
 
     isLoaded = true;
-    console.log('MASTER READY', MASTER);
 
   } catch (err) {
     console.error('ERROR LOAD JSON:', err);
   }
 }
-
 loadProducts();
 
-/* =============================
-   SCAN PRODUCT
-   ============================= */
 function scanProduct() {
 
   if (!isLoaded) {
@@ -564,12 +555,18 @@ function scanProduct() {
 
   if (!product) {
     document.getElementById('not-found').innerText = 'Produk tidak ditemukan';
+    document.getElementById('not-found').style.display = 'block';
     document.getElementById('product-section').style.display = 'none';
     return;
   }
 
-  document.getElementById('not-found').innerText = '';
+  document.getElementById('not-found').style.display = 'none';
   document.getElementById('product-section').style.display = 'block';
+
+  currentProduct = {
+    ...product,
+    sku_number: qr
+  };
 
   document.getElementById('disp-name').innerText = product.name;
   document.getElementById('disp-storage').innerText = product.storage;
@@ -578,9 +575,6 @@ function scanProduct() {
   document.getElementById('disp-mslod').innerText = product.mslod;
 }
 
-/* =============================
-   CEK EXPIRED
-   ============================= */
 function checkExpiry() {
   if (!currentProduct) return;
   
@@ -613,13 +607,12 @@ function checkExpiry() {
   let dotColor = '';
 
   if (diffDays < 0) {
-    // Already expired
     const expiredDays = Math.abs(diffDays);
     alertHTML = `<div class="alert-box alert-expired">
       <div class="alert-icon">🚫</div>
       <div>
         <div class="alert-title">PRODUK SUDAH EXPIRED!</div>
-        <div class="alert-msg">Produk ini sudah kadaluarsa ${expiredDays} hari yang lalu. Segera lakukan bad stock dan jangan di-order.</div>
+        <div class="alert-msg">Produk ini sudah kadaluarsa ${expiredDays} hari yang lalu.</div>
       </div>
     </div>`;
     barColor = '#ef4444';
@@ -631,7 +624,6 @@ function checkExpiry() {
       <div class="alert-icon">🚫</div>
       <div>
         <div class="alert-title">EXPIRED HARI INI!</div>
-        <div class="alert-msg">Produk ini expired hari ini. Segera bad stock dan jangan di-order.</div>
       </div>
     </div>`;
     barColor = '#ef4444';
@@ -639,30 +631,27 @@ function checkExpiry() {
     statusLabel = 'EXPIRED';
     dotColor = '#ef4444';
   } else if (diffDays <= msltc) {
-    // Critical: days remaining <= MSLTC
     alertHTML = `<div class="alert-box alert-critical">
       <div class="alert-icon">⏳</div>
       <div>
-        <div class="alert-title">⚠️ PRODUK MENDEKATI KADALUARSA!</div>
-        <div class="alert-msg">Produk mendekati kadaluarsa, sisa <strong>${diffDays} hari lagi</strong> sebelum Expired. Tolong segera di bad stock sebelum ke order.</div>
+        <div class="alert-title">NEAR EXPIRED</div>
+        <div class="alert-msg">Sisa ${diffDays} hari</div>
       </div>
     </div>`;
     barColor = '#f97316';
-    barPct = msltc > 0 ? Math.round((diffDays / msltc) * 100) : 50;
+    barPct = 50;
     statusLabel = 'NEAR EXPIRED';
     dotColor = '#f97316';
   } else {
-    // OK
     alertHTML = `<div class="alert-box alert-ok">
       <div class="alert-icon">✅</div>
       <div>
-        <div class="alert-title">PRODUK MASIH BAIK</div>
-        <div class="alert-msg">Sisa <strong>${diffDays} hari</strong> sebelum expired. Produk layak untuk diorder.</div>
+        <div class="alert-title">OK</div>
+        <div class="alert-msg">Sisa ${diffDays} hari</div>
       </div>
     </div>`;
-    const maxDays = Math.max(currentProduct.mslor ?? 0, 90);
     barColor = '#22c55e';
-    barPct = Math.min(Math.round((diffDays / maxDays) * 100), 100);
+    barPct = 100;
     statusLabel = 'OK';
     dotColor = '#22c55e';
   }
@@ -670,15 +659,13 @@ function checkExpiry() {
   resultSection.innerHTML = alertHTML;
   resultSection.style.display = 'block';
 
-  // Days bar
-  document.getElementById('days-label').textContent = diffDays < 0 ? 'Sudah expired' : diffDays + ' hari';
+  document.getElementById('days-label').textContent = diffDays + ' hari';
   document.getElementById('days-fill').style.width = barPct + '%';
   document.getElementById('days-fill').style.background = barColor;
   daysBar.style.display = 'block';
 
   saveBtn.disabled = false;
   
-  // Store for saving
   currentProduct._ed = edVal;
   currentProduct._diffDays = diffDays;
   currentProduct._status = statusLabel;
@@ -702,104 +689,28 @@ function saveRecord() {
   });
 
   renderHistory();
-  
-  // Show saved feedback
-  const btn = document.getElementById('save-btn');
-  btn.textContent = '✓ Tersimpan!';
-  btn.style.background = 'linear-gradient(135deg, #22c55e, #16a34a)';
-  setTimeout(() => {
-    btn.innerHTML = '💾 Simpan Record';
-    btn.style.background = '';
-  }, 1500);
 }
 
 function renderHistory() {
   const container = document.getElementById('history-list');
   if (history.length === 0) {
-    container.innerHTML = '<div class="empty-state">Belum ada scan dalam sesi ini</div>';
+    container.innerHTML = '<div class="empty-state">Belum ada scan</div>';
     return;
   }
   container.innerHTML = history.map(h => `
     <div class="history-item">
       <div class="history-dot" style="background:${h.dotColor}"></div>
-      <div style="flex:1;min-width:0">
-        <div class="history-name" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${h.name}</div>
-        <div style="font-size:11px;color:var(--muted)">SKU: ${h.sku} · ED: ${formatDate(h.ed)} · ${h.diffDays < 0 ? Math.abs(h.diffDays)+' hari lalu' : h.diffDays+' hari lagi'}</div>
-      </div>
-      <div>
-        <div class="history-status" style="background:${h.dotColor}22;color:${h.dotColor}">${h.status}</div>
-        <div class="history-time" style="text-align:right;margin-top:3px">${h.time}</div>
-      </div>
+      <div style="flex:1">${h.name}</div>
+      <div>${h.time}</div>
     </div>
   `).join('');
-}
-
-function formatDate(dateStr) {
-  const [y, m, d] = dateStr.split('-');
-  return d + '/' + m + '/' + y;
 }
 
 function resetForm() {
   document.getElementById('qr-input').value = '';
   document.getElementById('not-found').style.display = 'none';
   document.getElementById('product-section').style.display = 'none';
-  document.getElementById('result-section').innerHTML = '';
-  document.getElementById('result-section').style.display = 'none';
-  document.getElementById('days-bar').style.display = 'none';
   currentProduct = null;
-  document.getElementById('qr-input').focus();
-}
-
-// Enter key support
-document.getElementById('qr-input').addEventListener('keydown', function(e) {
-  if (e.key === 'Enter') scanProduct();
-});
-let scanner = null;
-
-function startScanner() {
-  const reader = document.getElementById("reader");
-
-  if (scanner) {
-    scanner.stop().then(() => {
-      scanner.clear();
-      scanner = null;
-      reader.style.display = "none";
-    });
-    return;
-  }
-
-  reader.style.display = "block";
-
-  scanner = new Html5Qrcode("reader");
-
-  Html5Qrcode.getCameras().then(devices => {
-    if (devices.length) {
-      let backCam = devices.find(d => d.label.toLowerCase().includes("back")) || devices[0];
-
-      scanner.start(
-        backCam.id,
-        { fps: 10, qrbox: 250 },
-        (decodedText) => {
-        let raw = decodedText;
-        let cleaned = raw.includes(";") ? raw.split(";")[0] : raw;
-          cleaned = cleaned.trim();
-          cleaned = cleaned.replace(/[^0-9]/g, "");
-        document.getElementById("qr-input").value = cleaned;
-        console.log("RAW:", raw);
-        console.log("CLEANED:", cleaned);
-
-
-          scanner.stop().then(() => {
-            scanner.clear();
-            scanner = null;
-            reader.style.display = "none";
-          });
-
-          scanProduct();
-        }
-      );
-    }
-  });
 }
 </script>
 </body>
