@@ -616,6 +616,7 @@ function checkExpiry() {
   const daysBar = document.getElementById('days-bar');
   const saveBtn = document.getElementById('save-btn');
 
+// SET BADGE (SUDAH AMAN)
 if (statusLabel === 'EXPIRED') {
   badge.innerHTML = '<span class="badge" style="background:#fee2e2;color:#b91c1c;">EXPIRED</span>';
 } else if (statusLabel === 'NEAR EXPIRED') {
@@ -623,6 +624,7 @@ if (statusLabel === 'EXPIRED') {
 } else {
   badge.innerHTML = '<span class="badge badge-fresh">OK</span>';
 }
+currentProduct._dotColor = dotColor;
 
   if (!edVal) {
     resultSection.innerHTML = '';
@@ -750,9 +752,6 @@ function renderHistory() {
       <div>${h.time}</div>
     </div>
   `).join('');
-  <div style="font-size:11px;color:var(--muted)">
-  ED: ${formatDate(h.ed)} • ${h.diffDays} hari
-</div>
 }
 
 function resetForm() {
