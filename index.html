@@ -712,19 +712,33 @@ function checkExpiry() {
     statusLabel = 'NEAR EXPIRED';
     dotColor = '#f97316';
   } else {
-    // OK
-    alertHTML = `<div class="alert-box alert-ok">
-      <div class="alert-icon">✅</div>
-      <div>
-        <div class="alert-title">PRODUK MASIH LAYAK</div>
-        <div class="alert-msg">Sisa <strong>${diffDays} hari</strong> sebelum expired. Produk layak untuk diorder.</div>
+  // OK
+  const daysToNearED = diffDays - msltc;
+
+  alertHTML = `<div class="alert-box alert-ok">
+    <div class="alert-icon">✅</div>
+    <div>
+      <div class="alert-title">PRODUK MASIH LAYAK</div>
+      <div class="alert-msg">
+        Sisa <strong>${diffDays} hari</strong> sebelum expired.<br>
+        ${
+          msltc > 0
+            ? (daysToNearED > 0
+                ? `Akan masuk <strong>Near Expired</strong> dalam <strong>${daysToNearED} hari</strong>.`
+                : `Produk sudah mendekati masa <strong>Near Expired</strong>.`
+              )
+            : ''
+        }
+        Produk layak untuk diorder.
       </div>
-    </div>`;
-    barColor = '#22c55e';
-    barPct = 100;
-    statusLabel = 'OK';
-    dotColor = '#22c55e';
-  }
+    </div>
+  </div>`;
+
+  barColor = '#22c55e';
+  barPct = 100;
+  statusLabel = 'OK';
+  dotColor = '#22c55e';
+}
   // SET BADGE (SUDAH AMAN)
 if (statusLabel === 'EXPIRED') {
   badge.innerHTML = '<span class="badge" style="background:#fee2e2;color:#b91c1c;">EXPIRED</span>';
